@@ -1,0 +1,721 @@
+﻿camera_id;RESEX;Entorno;Comunidade;X;Y;ECO_NAME_m;Eco_reg;G200_REGIO;G200_REG_1
+1012;RDA;não;BAUANA;-7488426.52;-603463.931;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1013;RDA;não;BAUANA;-7487918.83;-603865.098;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1014;RDA;não;BAUANA;-7486463.78;-605263.418;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1015;RDA;não;BAUANA;-7484206.81;-606896.981;Purus varzeá;PV;Amazon River and Flooded Forests;32
+1021;RDA;não;Matura;-7496131.95;-612026.937;Purus varzeá;PV;Amazon River and Flooded Forests;32
+1022;RDA;não;Matura;-7495964.69;-611778.51;Purus varzeá;PV;Amazon River and Flooded Forests;32
+1023;RDA;não;Matura;-7495433.07;-611320.154;Purus varzeá;PV;Amazon River and Flooded Forests;32
+1024;RDA;não;Matura;-7493960.03;-610010.167;Purus varzeá;PV;Amazon River and Flooded Forests;32
+1025;RDA;não;Matura;-7491750.12;-609487.963;Purus varzeá;PV;Amazon River and Flooded Forests;32
+1031;RDA;não;Bom Jesus Jurua;-7481922.9;-596959.789;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1032;RDA;não;Bom Jesus Jurua;-7481829.65;-597244.293;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1033;RDA;não;Bom Jesus Jurua;-7481488.93;-597810.203;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1034;RDA;não;Bom Jesus Jurua;-7480461.97;-599522.114;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1035;RDA;não;Bom Jesus Jurua;-7478643.71;-601894.07;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1041;RDA;não;Bom Jesus Jurua;-7479725.49;-596279.962;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1042;RDA;não;Bom Jesus Jurua;-7479400.4;-596234.716;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1043;RDA;não;Bom Jesus Jurua;-7478831.62;-595891.928;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1044;RDA;não;Bom Jesus Jurua;-7476806.44;-595785.964;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1045;RDA;não;Bom Jesus Jurua;-7473798.75;-595638.972;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1051;RMJ;não;Novo Unaci;-7507896.26;-588607.144;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1052;RMJ;não;Novo Unaci;-7508302.01;-588610.988;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1053;RMJ;não;Novo Unaci;-7508950.65;-588677.378;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1054;RMJ;não;Novo Unaci;-7510975.02;-588685.552;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1061;RMJ;não;Sao Raimundo;-7518249.03;-599062.401;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1062;RMJ;não;Sao Raimundo;-7518528.81;-599043.454;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1063;RMJ;não;Sao Raimundo;-7519196.75;-598931.527;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1064;RMJ;não;Sao Raimundo;-7520203.73;-598102.028;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+1065;RMJ;não;Sao Raimundo;-7520011.87;-597567.76;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2011;RMJ;sim;H;-7437981.92;-561075.034;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2012;RMJ;sim;H;-7437672.86;-561115.26;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2013;RMJ;sim;H;-7437077.94;-561159.682;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2014;RMJ;sim;H;-7435038.36;-561273.558;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2015;RMJ;sim;H;-7432553.29;-561441.227;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2021;RMJ;sim;G;-7443715.3;-568480.659;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2022;RMJ;sim;G;-7443635.8;-568764.086;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2023;RMJ;sim;G;-7443395.92;-569525.934;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2024;RMJ;sim;G;-7442194.28;-570969.75;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2031;RMJ;não;Z;-7472095.05;-559891.642;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2032;RMJ;não;Z;-7472372.56;-559846.578;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2033;RMJ;não;Z;-7472514.27;-558994.411;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2034;RMJ;não;Z;-7473138.61;-557121.787;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2035;RMJ;sim;Z;-7471258.82;-553986.933;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2041;RMJ;não;Z;-7473449.65;-558897.12;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2042;RMJ;não;Z;-7473581.6;-558658.852;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2043;RMJ;não;Z;-7473811.59;-558020.539;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2044;RMJ;não;Z;-7474241.33;-556082.958;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2051;RMJ;não;Pupuai;-7476984.4;-560402.056;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2052;RMJ;não;Pupuai;-7477134.88;-560112.876;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2053;RMJ;não;Pupuai;-7477627.81;-559666.398;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2054;RMJ;não;Pupuai;-7479003.74;-558239.441;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2055;RMJ;não;Pupuai;-7480271.93;-555345.316;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2061;RMJ;não;ROQUE;-7482266.22;-560921.379;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2062;RMJ;não;ROQUE;-7482066.03;-560666.356;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2063;RMJ;não;ROQUE;-7481626.46;-560175.285;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2064;RMJ;não;ROQUE;-7481867.01;-557989.294;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2065;RMJ;não;ROQUE;-7482332.56;-554961.467;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2071;RMJ;não;ROQUE;-7483592.02;-563476.68;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2072;RMJ;não;ROQUE;-7483704.07;-563728.317;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2073;RMJ;não;ROQUE;-7484028.67;-564300.324;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2074;RMJ;não;ROQUE;-7485198.92;-565914.56;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2081;RMJ;não;E;-7497654.2;-577830.252;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2082;RMJ;não;E;-7497929.02;-577786.824;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2083;RMJ;não;E;-7498550.21;-577945.775;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2084;RMJ;não;E;-7500628.92;-578314.179;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2091;RMJ;não;FORTUNA;-7493746.33;-570431.545;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2092;RMJ;não;FORTUNA;-7494018.38;-570596.723;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2093;RMJ;não;FORTUNA;-7494675.03;-570673.426;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2094;RMJ;não;FORTUNA;-7496635.55;-571015.175;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2095;RMJ;não;FORTUNA;-7499018.46;-570891.856;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2101;RDA;não;Imperatrix;-7478370.87;-590801.959;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+2102;RDA;não;Imperatrix;-7478165.33;-590875.771;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3011;RMJ;sim;Carauari Riozinho;-7456290.59;-526431.861;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3012;RMJ;sim;Carauari Riozinho;-7456565.54;-526367.946;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3013;RMJ;sim;Carauari Riozinho;-7457223.22;-526213.593;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3014;RMJ;sim;Carauari Riozinho;-7459159.51;-525701.622;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3015;RMJ;sim;Carauari Riozinho;-7461882.39;-524439.795;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3021;RMJ;sim;J;-7451959.59;-531703.145;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3022;RMJ;sim;J;-7451749.09;-531513.054;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3023;RMJ;sim;J;-7451393.19;-531007.046;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3024;RMJ;sim;J;-7450241.82;-529364.735;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3025;RMJ;sim;J;-7448342.49;-526972.464;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3031;RMJ;sim;L;-7454909;-535647.987;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3032;RMJ;sim;L;-7455173.93;-535774.826;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3033;RMJ;sim;L;-7455914.55;-535755.069;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3034;RMJ;sim;L;-7457900.37;-536255.017;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3035;RMJ;sim;L;-7460796.02;-536742.428;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3041;RMJ;sim;Carauari pe da terra;-7456703.36;-545198.781;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3042;RMJ;sim;Carauari pe da terra;-7456941.47;-545026.852;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3043;RMJ;sim;Carauari pe da terra;-7457394.32;-544596.44;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3044;RMJ;sim;Carauari pe da terra;-7459129.46;-543432.288;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3045;RMJ;sim;Carauari pe da terra;-7461492.1;-541590.71;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3051;RMJ;sim;I;-7442164.7;-529636.596;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3052;RMJ;sim;I;-7442109.48;-529331.224;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3053;RMJ;sim;I;-7442060.39;-528659.441;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3054;RMJ;sim;I;-7441471.63;-526716.136;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3055;RMJ;sim;I;-7440835.95;-523835.735;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3061;RDA;não;Bonfim;-7556483.02;-666086.412;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3062;RDA;não;Bonfim;-7556698.43;-665861.023;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3063;RDA;não;Bonfim;-7557235.1;-666720.449;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3064;RDA;não;Bonfim;-7558477.31;-668349.256;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3065;RDA;não;Bonfim;-7559810.03;-670438.714;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3071;RDA;não;Xibauazinho;-7542470.24;-661610.245;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3072;RDA;não;Xibauazinho;-7542158.1;-661649.825;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3073;RDA;não;Xibauazinho;-7541537.83;-661638.036;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3074;RDA;não;Xibauazinho;-7539498.67;-661651.493;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3075;RDA;não;Xibauazinho;-7536502.29;-661141.934;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3081;RDA;não;Xibaua;-7554699.69;-652440.447;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3082;RDA;não;Xibaua;-7554866;-652169.748;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3083;RDA;não;Xibaua;-7555338.55;-651653.149;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3084;RDA;não;Xibaua;-7556101.64;-649787.789;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3085;RDA;não;Xibaua;-7557224.64;-647069.55;Purus varzeá;PV;Amazon River and Flooded Forests;32
+3091;RDA;não;Carocal;-7540106.15;-637834.474;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3092;RDA;não;Carocal;-7539815.05;-637963.843;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3093;RDA;não;Carocal;-7539124.64;-638349.177;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+3094;RDA;não;Carocal;-7537593.23;-640287.212;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4011;RDA;não;Sao Jose (Anaxiqui);-7556170.22;-631172.83;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4012;RDA;não;Sao Jose (Anaxiqui);-7556321.84;-630886.221;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4013;RDA;não;Sao Jose (Anaxiqui);-7556785.25;-630464.372;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4014;RDA;não;Sao Jose (Anaxiqui);-7558480.43;-629321.861;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4015;RDA;não;Sao Jose (Anaxiqui);-7560910.43;-627557.737;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4022;RDA;não;B;-7545249.33;-617650.322;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4023;RDA;não;B;-7545739.36;-617140.34;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4024;RDA;não;B;-7548061.81;-617228.114;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4031;RDA;não;X;-7521735.54;-626019.679;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4032;RDA;não;X;-7521822.7;-626335.717;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4033;RDA;não;X;-7521800.11;-626962.889;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4034;RDA;não;X;-7520495.88;-628672.329;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4035;RDA;não;X;-7518601.34;-631072.918;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4041;RDA;não;C;-7511973.04;-614881.145;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4042;RDA;não;C;-7511963.24;-615171.565;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4043;RDA;não;C;-7511731.14;-615822.971;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4044;RDA;não;C;-7510557.61;-617457.219;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4045;RDA;não;C;-7510673.61;-620651.398;Purus varzeá;PV;Amazon River and Flooded Forests;32
+4051;RMJ;não;D;-7525384.26;-606878.489;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4053;RMJ;não;D;-7526227.39;-606423.473;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+4054;RMJ;não;D;-7527574.24;-604953.014;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5011;RDA;não;Sororoca;-7562690.71;-648078.943;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5012;RDA;não;Sororoca;-7562945.26;-648197.637;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5013;RDA;não;Sororoca;-7563588.3;-647976.843;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5014;RDA;não;Sororoca;-7565609.92;-648259.813;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5015;RDA;não;Sororoca;-7568616.24;-648704.843;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5021;RDA;não;Sororoca;-7561537.2;-641984.737;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5022;RDA;não;Sororoca;-7561813.18;-641974.181;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5023;RDA;não;Sororoca;-7562511.9;-641956.005;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5024;RDA;não;Sororoca;-7564502.42;-641725.096;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5025;RDA;não;Sororoca;-7566834.88;-641092.913;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5031;RDA;não;Matura;-7498604.88;-618416.796;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5032;RDA;não;Matura;-7498640.22;-618701.3;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5033;RDA;não;Matura;-7499412.33;-618992.073;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5034;RDA;não;Matura;-7500606.12;-619962.588;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5035;RDA;não;Matura;-7501917.69;-620665.415;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5041;RDA;não;Matura;-7495896.22;-615336.993;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5042;RDA;não;Matura;-7495609.94;-615224.442;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5043;RDA;não;Matura;-7494956.32;-615278.017;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5044;RDA;não;Matura;-7492945.14;-615435.194;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5045;RDA;não;Matura;-7489955.49;-614536.509;Purus varzeá;PV;Amazon River and Flooded Forests;32
+5052;RMJ;não;FORTUNA;-7491436.26;-569012.847;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5053;RMJ;não;FORTUNA;-7491661.84;-568371.9;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5054;RMJ;não;FORTUNA;-7492321.34;-567059.089;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5055;RMJ;não;FORTUNA;-7493451.12;-565280.564;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5061;RMJ;não;ROQUE;-7482706;-562099.81;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5062;RMJ;não;ROQUE;-7482988.51;-562011.718;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5063;RMJ;não;ROQUE;-7483592.25;-561734.339;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5064;RMJ;não;ROQUE;-7485268.93;-560696.644;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5065;RMJ;não;ROQUE;-7488127.15;-559603.916;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5072;RMJ;não;Pupuai;-7475773.17;-557706.339;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5073;RMJ;não;Pupuai;-7475759.7;-557061.4;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5074;RMJ;não;Pupuai;-7476574.59;-555127.679;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5075;RMJ;não;Pupuai;-7477741.55;-552385.352;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5081;RMJ;sim;F;-7465790.48;-556464.106;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5082;RMJ;sim;F;-7466022.12;-556313.327;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5083;RMJ;sim;F;-7466516.35;-555849.371;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5084;RMJ;sim;F;-7467845.45;-554407.464;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5085;RMJ;sim;F;-7468759.37;-551353.784;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5091;RMJ;sim;H;-7438800.86;-562949.894;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5092;RMJ;sim;H;-7438606.65;-563191.2;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5093;RMJ;sim;H;-7438130.2;-563689.094;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5094;RMJ;sim;H;-7436115.88;-564191.812;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5095;RMJ;sim;H;-7433105.53;-564697.996;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5101;RMJ;sim;Cara_1;-7455997.84;-542638.093;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5102;RMJ;sim;Cara_1;-7456262.4;-542583.356;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5103;RMJ;sim;Cara_1;-7456774.19;-542093.869;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+5104;RMJ;sim;Cara_1;-7458191.67;-540567.779;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6011;RMJ;sim;I;-7443987.78;-533277.705;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6013;RMJ;sim;I;-7444561.07;-533246.633;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6021;RDA;não;Bareira do ido;-7504288.43;-606263.282;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6022;RDA;não;Bareira do ido;-7503997.89;-606304.384;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6023;RDA;não;Bareira do ido;-7503544.82;-606845.384;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6031;RDA;não;BAUANA;-7489671.07;-601156.779;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6032;RDA;não;BAUANA;-7489468.47;-601363.386;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6033;RDA;não;BAUANA;-7489801.31;-602328.673;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6034;RDA;não;BAUANA;-7488880.7;-603108.467;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+6041;RMJ;não;6041;-7534276.79;-611480.168;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+7011;RDU;sim;sao jose do uatuma;-6617108.89;-221147.082;Uatuma-Trombetas moist forests;UTF;;0
+7012;RDU;sim;sao jose do uatuma;-6616946.11;-220942.239;Uatuma-Trombetas moist forests;UTF;;0
+7013;RDU;sim;sao jose do uatuma;-6616679.56;-220701.107;Uatuma-Trombetas moist forests;UTF;;0
+7014;RDU;sim;sao jose do uatuma;-6614843.91;-219292.718;Uatuma-Trombetas moist forests;UTF;;0
+7015;RDU;sim;sao jose do uatuma;-6612459.51;-217479.475;Uatuma-Trombetas moist forests;UTF;;0
+7021;RDU;sim;M;-6606564.35;-228340.188;Uatuma-Trombetas moist forests;UTF;;0
+7022;RDU;sim;M;-6606494.45;-228057.21;Uatuma-Trombetas moist forests;UTF;;0
+7023;RDU;sim;M;-6606369.13;-227401.368;Uatuma-Trombetas moist forests;UTF;;0
+7025;RDU;sim;M;-6606227.89;-224214.032;Uatuma-Trombetas moist forests;UTF;;0
+7031;RDU;sim;macacaboi;-6592704.27;-234595.345;Uatuma-Trombetas moist forests;UTF;;0
+7032;RDU;sim;macacaboi;-6592829.49;-234345.708;Uatuma-Trombetas moist forests;UTF;;0
+7033;RDU;sim;macacaboi;-6592987.87;-233685.596;Uatuma-Trombetas moist forests;UTF;;0
+7034;RDU;sim;macacaboi;-6593483.04;-232322.844;Uatuma-Trombetas moist forests;UTF;;0
+7035;RDU;sim;macacaboi;-6593490.43;-229690.712;Uatuma-Trombetas moist forests;UTF;;0
+7041;RDU;não;tucumaiduba;-6576225.27;-253289.196;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7042;RDU;não;tucumaiduba;-6576145.76;-253572.477;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7045;RDU;não;tucumaiduba;-6575420.73;-258737.626;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7051;RDU;não;N;-6551972.67;-256362.908;Uatuma-Trombetas moist forests;UTF;;0
+7052;RDU;não;N;-6551737.68;-256399.919;Uatuma-Trombetas moist forests;UTF;;0
+7053;RDU;não;N;-6551199.43;-256561.895;Uatuma-Trombetas moist forests;UTF;;0
+7054;RDU;não;N;-6549659.61;-257584.616;Uatuma-Trombetas moist forests;UTF;;0
+7061;RDU;não;flechal;-6532168.14;-259421.098;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7062;RDU;não;flechal;-6532103.02;-259742.765;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7063;RDU;não;flechal;-6532146.63;-260399.192;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7064;RDU;não;flechal;-6532440.72;-262363.385;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7071;RDU;não;R;-6535968.69;-240054.337;Uatuma-Trombetas moist forests;UTF;;0
+7072;RDU;não;R;-6535778.58;-239834.669;Uatuma-Trombetas moist forests;UTF;;0
+7073;RDU;não;R;-6535257.91;-239374.019;Uatuma-Trombetas moist forests;UTF;;0
+7074;RDU;não;R;-6533864.02;-238073.419;Uatuma-Trombetas moist forests;UTF;;0
+7075;RDU;não;R;-6531112.83;-236623.338;Uatuma-Trombetas moist forests;UTF;;0
+7081;RDU;não;livramento;-6488420.58;-260248.519;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7082;RDU;não;livramento;-6488494.66;-259954.845;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7083;RDU;não;livramento;-6488644.42;-259331.639;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7084;RDU;não;livramento;-6489094.45;-257378.272;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7085;RDU;não;livramento;-6489897.5;-254496.437;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7091;RDU;não;sao francisco_1;-6498084.72;-269011.4;Uatuma-Trombetas moist forests;UTF;;0
+7093;RDU;não;sao francisco_1;-6498118.68;-269968.007;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7094;RDU;não;sao francisco_1;-6498071.01;-271953.024;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7095;RDU;não;sao francisco_1;-6499059.42;-274863.684;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7101;RDU;não;sta lucia jacarequar;-6488970.84;-270685.853;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7102;RDU;não;sta lucia jacarequar;-6489239.91;-270728.258;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7103;RDU;não;sta lucia jacarequar;-6489885.97;-270813.094;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7104;RDU;não;sta lucia jacarequar;-6491403.57;-270894.285;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7105;RDU;não;sta lucia jacarequar;-6493413.52;-272862.319;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7111;RDU;não;O;-6486158.16;-276999.653;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7112;RDU;não;O;-6486485.87;-276978.167;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7113;RDU;não;O;-6487121.9;-276888.762;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+7114;RDU;não;O;-6488294.52;-279103.386;Uatuma-Trombetas moist forests;UTF;;0
+7115;RDU;não;O;-6489294.32;-281810.356;Uatuma-Trombetas moist forests;UTF;;0
+8011;RDU;sim;sao jao batista;-6481333.04;-224700.626;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8012;RDU;sim;sao jao batista;-6481602.27;-224785.049;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8013;RDU;sim;sao jao batista;-6482122.15;-225209.833;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8014;RDU;sim;sao jao batista;-6483712.53;-226444.544;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8015;RDU;sim;sao jao batista;-6485892.73;-228486.5;Uatuma-Trombetas moist forests;UTF;;0
+8021;RDU;sim;serra do bacabal;-6479755.64;-232948.784;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8022;RDU;sim;serra do bacabal;-6480013.24;-233080.52;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8023;RDU;sim;serra do bacabal;-6480584.7;-233407.422;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8024;RDU;sim;serra do bacabal;-6481441.53;-234755.333;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8025;RDU;sim;serra do bacabal;-6483438.26;-236023.437;Uatuma-Trombetas moist forests;UTF;;0
+8031;RDU;sim;do arara;-6464957.18;-250488.514;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8032;RDU;sim;do arara;-6464791.59;-250206.787;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8033;RDU;sim;do arara;-6464492.08;-249650.524;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8034;RDU;sim;do arara;-6463328.64;-248021.213;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8035;RDU;sim;do arara;-6461716.36;-245491.509;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8041;RDU;não;P;-6472870.87;-266343.288;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8042;RDU;não;P;-6472655.77;-266579.126;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8043;RDU;não;P;-6472141;-266955.337;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8044;RDU;não;P;-6470984.45;-267892.208;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8045;RDU;não;P;-6469665.81;-268977.856;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8051;RDU;não;nossa sra de fatima;-6480578.35;-287713.721;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8052;RDU;não;nossa sra de fatima;-6480903.66;-287771.328;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8053;RDU;não;nossa sra de fatima;-6481433.33;-288144.022;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8054;RDU;não;nossa sra de fatima;-6482583.56;-289130.373;Uatuma-Trombetas moist forests;UTF;;0
+8055;RDU;não;nossa sra de fatima;-6484096.95;-290476.378;Uatuma-Trombetas moist forests;UTF;;0
+8061;RDU;sim;sao francisco_3;-6469737;-288976.869;Uatuma-Trombetas moist forests;UTF;;0
+8062;RDU;sim;sao francisco_3;-6470009.45;-289104.33;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8063;RDU;sim;sao francisco_3;-6470271.46;-289772.209;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8064;RDU;sim;sao francisco_3;-6470933.59;-291651.826;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8071;RDU;sim;monte siao_1;-6459339.95;-294674.386;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8072;RDU;sim;monte siao_1;-6459638.63;-294496.649;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8073;RDU;sim;monte siao_1;-6460275.86;-294620.794;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8074;RDU;sim;monte siao_1;-6462298.68;-294888.856;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8075;RDU;sim;monte siao_1;-6465259.31;-295165.872;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8081;RDU;sim;Q;-6453020.36;-256789.712;Uatuma-Trombetas moist forests;UTF;;0
+8082;RDU;sim;Q;-6453057.72;-256480.545;Uatuma-Trombetas moist forests;UTF;;0
+8083;RDU;sim;Q;-6452606.72;-255875.19;Uatuma-Trombetas moist forests;UTF;;0
+8084;RDU;sim;Q;-6451981.59;-253996.222;Uatuma-Trombetas moist forests;UTF;;0
+8085;RDU;sim;Q;-6451946.44;-250928.409;Uatuma-Trombetas moist forests;UTF;;0
+8092;RDU;sim;sao francisco_2;-6452200.49;-268760.419;Uatuma-Trombetas moist forests;UTF;;0
+8093;RDU;sim;sao francisco_2;-6451696.62;-268354.008;Uatuma-Trombetas moist forests;UTF;;0
+8094;RDU;sim;sao francisco_2;-6450332.11;-266925.967;Uatuma-Trombetas moist forests;UTF;;0
+8101;RDU;sim;ig do raimundo;-6458811.64;-272246.971;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8102;RDU;sim;ig do raimundo;-6458949.17;-271996.866;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8103;RDU;sim;ig do raimundo;-6459029.24;-271309.868;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+8104;RDU;sim;ig do raimundo;-6459373.13;-269336.178;Monte Alegre varzeá;MAV;Amazon River and Flooded Forests;32
+ALE-T1-C1-288;Riozinho_Liberdade;não;Alegria_2;-8046588.12;-880807.033;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T1-C2-850;Riozinho_Liberdade;não;Alegria_2;-8046992.32;-881157.085;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T1-C3-2550;Riozinho_Liberdade;não;Alegria_2;-8046952.69;-883153.485;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T1-C4-4800;Riozinho_Liberdade;não;Alegria_2;-8046531.57;-885487.563;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T1-C5-5900;Riozinho_Liberdade;não;Alegria_2;-8046747.42;-886597.919;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T2-C1-850;Riozinho_Liberdade;não;Alegria;-8044166.92;-876027.95;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T2-C2-1500;Riozinho_Liberdade;não;Alegria;-8043638.82;-876453.327;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T2-C3-2800;Riozinho_Liberdade;não;Alegria;-8042884.86;-877557.874;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T2-C4-4200;Riozinho_Liberdade;não;Alegria;-8041807.28;-878412.123;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+ALE-T2-C5-6180;Riozinho_Liberdade;não;Alegria;-8039470.58;-878738.6;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+BEB-T1-C1-1000;Arapixi;sim;Bebé;-7533240.07;-978779.405;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BEB-T1-C3-2900;Arapixi;sim;Bebé;-7532670.23;-976987.7;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+BEB-T1-C4-3800;Arapixi;sim;Bebé;-7532679.24;-976034.251;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+BEB-T1-C5-5400;Arapixi;sim;Bebé;-7533526.61;-974338.787;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+BEB-T1-C6-6200;Arapixi;sim;Bebé;-7534509.79;-973590.956;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+BJS-T1-C1-1000;Médio Purus;sim;Bom Jesus;-7309305.11;-855102.363;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T1-C2-1700;Médio Purus;sim;Bom Jesus;-7308768.88;-855659.345;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T1-C3-2600;Médio Purus;sim;Bom Jesus;-7308352.44;-856420.664;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T1-C4-3800;Médio Purus;sim;Bom Jesus;-7308549.81;-857736.215;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T1-C5-4800;Médio Purus;sim;Bom Jesus;-7308355.78;-858721.35;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T1-C6-6000;Médio Purus;sim;Bom Jesus;-7308061.45;-859875.36;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T2-C1-750;Médio Purus;sim;Bom Jesus;-7309924.6;-854635.662;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T2-C2-1300;Médio Purus;sim;Bom Jesus;-7310078.56;-855220.092;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T2-C3-2200;Médio Purus;sim;Bom Jesus;-7310107.73;-856112.988;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T2-C4-3600;Médio Purus;sim;Bom Jesus;-7309567.94;-857609.219;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T2-C5-4700;Médio Purus;sim;Bom Jesus;-7309978.25;-858735.971;Purus varzeá;PV;Amazon River and Flooded Forests;32
+BJS-T2-C6-5800;Médio Purus;sim;Bom Jesus;-7310054.29;-859812.86;Purus varzeá;PV;Amazon River and Flooded Forests;32
+C1-T1-C1-1400;Riozinho_Liberdade;sim;Santa Rita;-8015762.2;-853683.661;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C1-330;Cazumbá-iracema;sim;Providência;-7663909.34;-1038854.57;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C2-2000;Riozinho_Liberdade;sim;Santa Rita;-8016075.56;-853184.723;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C2-830;Cazumbá-iracema;sim;Providência;-7663561.13;-1039234.76;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C3-1500;Cazumbá-iracema;sim;Providência;-7663426.11;-1040198.92;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C3-2950;Riozinho_Liberdade;sim;Santa Rita;-8016691.72;-852464.854;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C4-2600;Cazumbá-iracema;sim;Providência;-7662915.59;-1040992.29;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C4-4345;Riozinho_Liberdade;sim;Santa Rita;-8017669.99;-851440.465;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C5-6000;Cazumbá-iracema;sim;Providência;-7660085.62;-1043115.33;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T1-C5-6005;Riozinho_Liberdade;sim;Santa Rita;-8018979.45;-850238.459;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C1-1600;Riozinho_Liberdade;sim;Santa Rita_2;-8014873.98;-852123.392;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C1-600;Cazumbá-iracema;sim;Providência;-7664541.19;-1039189.81;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C2-1200;Cazumbá-iracema;sim;Providência;-7664081.55;-1039884.97;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C2-2240;Riozinho_Liberdade;sim;Santa Rita_2;-8015341.52;-851721.22;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C3-2000;Cazumbá-iracema;sim;Providência;-7663593.08;-1040577.23;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C3-3140;Riozinho_Liberdade;sim;Santa Rita_2;-8016151.48;-851210.041;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C4-3400;Cazumbá-iracema;sim;Providência;-7662078.46;-1041393.13;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C4-4400;Riozinho_Liberdade;sim;Santa Rita_2;-8017436.33;-850747.626;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T2-C5-6500;Cazumbá-iracema;sim;Providência;-7659734.08;-1043485.37;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T3-C1-1370;Cazumbá-iracema;sim;Providência;-7665290.93;-1037838.88;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T3-C2-2000;Cazumbá-iracema;sim;Providência;-7665848.41;-1037519.34;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T3-C3-2450;Cazumbá-iracema;sim;Providência;-7666344.67;-1037385.97;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T3-C4-4000;Cazumbá-iracema;sim;Providência;-7667277.54;-1036161.96;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T3-C5-6000;Cazumbá-iracema;sim;Providência;-7668572.51;-1034953.24;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T4-C1-1500;Cazumbá-iracema;sim;Providência;-7663113.29;-1037648.9;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T4-C2-2250;Cazumbá-iracema;sim;Providência;-7662190.68;-1037476.19;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T4-C3-3070;Cazumbá-iracema;sim;Providência;-7661180.01;-1038026.28;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T4-C4-4280;Cazumbá-iracema;sim;Providência;-7660120.25;-1040138.85;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C1-T4-C5-5700;Cazumbá-iracema;sim;Providência;-7658985.13;-1041093.51;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C1-1280;Cazumbá-iracema;sim;Lua Nova;-7673784.83;-1050342.31;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C1-1900;Riozinho_Liberdade;sim;São João;-8008686.51;-846401.775;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C2-2050;Cazumbá-iracema;sim;Lua Nova;-7674374.49;-1049785.31;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C2-2500;Riozinho_Liberdade;sim;São João;-8008014.59;-846440.829;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C3-2950;Cazumbá-iracema;sim;Lua Nova;-7674872.08;-1048760.36;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C3-3400;Riozinho_Liberdade;sim;São João;-8007108.45;-846350.562;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C4-4000;Cazumbá-iracema;sim;Lua Nova;-7675462.07;-1048153.38;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C4-4300;Riozinho_Liberdade;sim;São João;-8006233.13;-846476.536;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C5-5800;Cazumbá-iracema;sim;Lua Nova;-7678182.95;-1048927.07;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T1-C5-5900;Riozinho_Liberdade;sim;São João;-8004672.99;-847132.044;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C1-2300;Riozinho_Liberdade;sim;São João_2;-8009558.36;-849658.562;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C1-950;Cazumbá-iracema;sim;Lua Nova;-7672029.54;-1051725.18;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C2-1500;Cazumbá-iracema;sim;Lua Nova;-7671623.67;-1052045.96;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C2-3000;Riozinho_Liberdade;sim;São João_2;-8008882.87;-849553.559;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C3-2500;Cazumbá-iracema;sim;Lua Nova;-7670884.51;-1052707.72;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C3-3700;Riozinho_Liberdade;sim;São João_2;-8008157.51;-849433.946;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C4-4000;Cazumbá-iracema;sim;Lua Nova;-7670190.65;-1054127.57;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C4-4750;Riozinho_Liberdade;sim;São João_2;-8007172.34;-849061.595;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C5-6000;Cazumbá-iracema;sim;Lua Nova;-7668536.44;-1055328.49;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T2-C5-6005;Riozinho_Liberdade;sim;São João_2;-8005659.62;-849421.002;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C1-1000;Cazumbá-iracema;sim;Lua Nova;-7673670.94;-1051242.17;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C1-700;Riozinho_Liberdade;sim;São João;-8011650.39;-846481.334;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C2-1300;Riozinho_Liberdade;sim;São João;-8012262.2;-846419.404;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C2-1600;Cazumbá-iracema;sim;Lua Nova;-7674211.62;-1051035.19;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C3-2330;Riozinho_Liberdade;sim;São João;-8013274.54;-846002.448;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C3-2500;Cazumbá-iracema;sim;Lua Nova;-7675104.63;-1051291.73;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C4-3800;Cazumbá-iracema;sim;Lua Nova;-7676517.38;-1050723.28;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C4-3850;Riozinho_Liberdade;sim;São João;-8014721.92;-845718.829;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C5-5100;Cazumbá-iracema;sim;Lua Nova;-7677807.69;-1050372.91;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T3-C5-6000;Riozinho_Liberdade;sim;São João;-8016910.68;-845519.004;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T4-C1-1050;Cazumbá-iracema;sim;Panela;-7670770.74;-1049683.06;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T4-C2-1500;Cazumbá-iracema;sim;Panela;-7670439.23;-1049803.47;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T4-C3-2500;Cazumbá-iracema;sim;Panela;-7669333.5;-1049629.36;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T4-C4-4000;Cazumbá-iracema;sim;Panela;-7667809.09;-1050503.42;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C2-T4-C5-6320;Cazumbá-iracema;sim;Panela;-7665814.24;-1052016.03;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C1-1500;Riozinho_Liberdade;sim;São José;-8008102.08;-843498.336;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C1-830;Cazumbá-iracema;sim;Repouso;-7675582.41;-1060681.5;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C2-1240;Cazumbá-iracema;sim;Repouso;-7675991.95;-1060185.25;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C2-2230;Riozinho_Liberdade;sim;São José;-8007348.11;-843553.894;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C3-2400;Cazumbá-iracema;sim;Repouso;-7677101.14;-1059880.21;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C3-3000;Riozinho_Liberdade;sim;São José;-8006579.45;-843890.945;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C4-3440;Cazumbá-iracema;sim;Repouso;-7678143.76;-1059599.51;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C4-4000;Riozinho_Liberdade;sim;São José;-8005614.31;-844055.067;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C5-4700;Riozinho_Liberdade;sim;São José;-8004960.98;-844474.128;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T1-C5-6050;Cazumbá-iracema;sim;Repouso;-7680173.67;-1057500.45;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C1-200;Cazumbá-iracema;sim;Repouso;-7674276.19;-1061693.88;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C1-450;Riozinho_Liberdade;sim;São José;-8010050.17;-843344.708;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C2-1220;Riozinho_Liberdade;sim;São José;-8010821.84;-843234.033;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C2-550;Cazumbá-iracema;sim;Repouso;-7673907.5;-1062002.96;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C3-1300;Cazumbá-iracema;sim;Repouso;-7673398.22;-1062545.22;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C3-2020;Riozinho_Liberdade;sim;São José;-8011608.97;-843088.215;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C4-3000;Cazumbá-iracema;sim;Repouso;-7672170.91;-1063763.79;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C4-3700;Riozinho_Liberdade;sim;São José;-8013135.17;-842097.611;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T2-C5-6000;Riozinho_Liberdade;sim;São José;-8015653.66;-842835.285;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T3-C1-1450;Riozinho_Liberdade;sim;São José;-8010934.72;-843892.844;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T3-C2-2000;Riozinho_Liberdade;sim;São José;-8011434.1;-844124.691;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T3-C3-3100;Riozinho_Liberdade;sim;São José;-8012632;-843995.6;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T3-C4-4200;Riozinho_Liberdade;sim;São José;-8013767.24;-844070.021;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C3-T3-C5-6000;Riozinho_Liberdade;sim;São José;-8015552.13;-844072.022;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C1-1100;Cazumbá-iracema;sim;Jair;-7679721.82;-1071750.12;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C2-1700;Cazumbá-iracema;sim;Jair;-7679794.29;-1072281.75;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C2-2880;Riozinho_Liberdade;sim;São Luiz;-8005748.45;-840203.934;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C3-2550;Cazumbá-iracema;sim;Jair;-7679590.91;-1073141.08;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C3-3400;Riozinho_Liberdade;sim;São Luiz;-8005344.58;-840541.747;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C4-3850;Cazumbá-iracema;sim;Jair;-7679430.95;-1074482.73;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C4-4150;Riozinho_Liberdade;sim;São Luiz;-8004654.62;-840871.296;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C5-5050;Riozinho_Liberdade;sim;São Luiz;-8004154.81;-841701.444;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C5-6000;Cazumbá-iracema;sim;Jair;-7679523.24;-1076610.24;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T1-C6-5950;Riozinho_Liberdade;sim;São Luiz;-8003593.41;-842404.082;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C1-1600;Riozinho_Liberdade;sim;São Luiz_2;-8009170.3;-836970.453;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C1-1970;Cazumbá-iracema;sim;Apuí;-7681370.25;-1067837.34;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C2-2300;Riozinho_Liberdade;sim;São Luiz_2;-8009860.49;-836572.656;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C2-3100;Cazumbá-iracema;sim;Apuí;-7682522.74;-1067481.65;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C3-3250;Riozinho_Liberdade;sim;São Luiz_2;-8010549.11;-835985.335;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C3-3950;Cazumbá-iracema;sim;Apuí;-7683263.79;-1067106.67;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C4-4150;Riozinho_Liberdade;sim;São Luiz_2;-8011319.88;-835447.66;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C4-4950;Cazumbá-iracema;sim;Apuí;-7684005.63;-1066372.32;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C5-5150;Riozinho_Liberdade;sim;São Luiz_2;-8011632.02;-834260.001;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C5-6040;Cazumbá-iracema;sim;Apuí;-7685018.41;-1065926.13;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T2-C6-6150;Riozinho_Liberdade;sim;São Luiz_2;-8012461.46;-833669.361;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T3-C1-950;Riozinho_Liberdade;sim;São Luiz;-8010127.2;-839315.024;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T3-C2-1530;Riozinho_Liberdade;sim;São Luiz;-8010745.81;-839406.063;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T3-C3-2350;Riozinho_Liberdade;sim;São Luiz;-8011562.34;-839352.96;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T3-C4-3740;Riozinho_Liberdade;sim;São Luiz;-8012969.3;-839490.622;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T3-C5-4700;Riozinho_Liberdade;sim;São Luiz;-8013908.06;-839653.167;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+C4-T3-C6-6000;Riozinho_Liberdade;sim;São Luiz;-8015249.35;-840009.706;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAP-T1-C1-1000;Médio Purus;sim;Capacini;-7240324.76;-817743.389;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T1-C3-2500;Médio Purus;sim;Capacini;-7239612.54;-819038.251;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T1-C4-3750;Médio Purus;sim;Capacini;-7238982.03;-820013.76;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T1-C5-5000;Médio Purus;sim;Capacini;-7238228.06;-821142.966;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T1-C6-6000;Médio Purus;sim;Capacini;-7237626.27;-821866.717;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T2-C1-620_1;Médio Purus;sim;Capacini;-7240911.31;-817964.847;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T2-C2-500_2;Médio Purus;sim;Capacini;-7240639.58;-818369.295;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T2-C3-600_2;Médio Purus;sim;Capacini;-7239667.86;-817822.563;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T2-C4-4510;Médio Purus;sim;Capacini;-7239135.65;-817603.443;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T3-C1-300;Médio Purus;sim;Capacini;-7241112.35;-817028.849;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T3-C2-1000;Médio Purus;sim;Capacini;-7241608.16;-817497.509;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T3-C3-1700;Médio Purus;sim;Capacini;-7242159.86;-817941.536;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T3-C4-2000;Médio Purus;sim;Capacini;-7241971.07;-818570.455;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T3-C5-3500;Médio Purus;sim;Capacini;-7243228.42;-819439.353;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAP-T3-C6-4600;Médio Purus;sim;Capacini;-7243620.82;-820586.501;Purus varzeá;PV;Amazon River and Flooded Forests;32
+CAZ-T1-C1-250;Cazumbá-iracema;não;Cazumbá;-7675891.43;-1014103.61;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T1-C2-680;Cazumbá-iracema;não;Cazumbá;-7676385.48;-1013813.16;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T1-C3-1320;Cazumbá-iracema;não;Cazumbá;-7677036.02;-1013542.43;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T2-C1-450;Cazumbá-iracema;não;Cazumbá;-7675726.35;-1014578.66;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T2-C2-2000;Cazumbá-iracema;não;Cazumbá;-7676117.08;-1015773.64;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T2-C3-2700;Cazumbá-iracema;não;Cazumbá;-7676333.93;-1016489.77;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T2-C4-4060;Cazumbá-iracema;não;Cazumbá;-7677175.51;-1017636.42;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T2-C5-6500;Cazumbá-iracema;não;Cazumbá;-7678476.17;-1019825.4;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T3-C1-1500;Cazumbá-iracema;não;Cazumbá;-7675198.58;-1015220.38;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T3-C2-2100;Cazumbá-iracema;não;Cazumbá;-7674789.38;-1015656.91;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T3-C3-3050;Cazumbá-iracema;não;Cazumbá;-7674722.69;-1016688.15;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CAZ-T3-C4-4700;Cazumbá-iracema;não;Cazumbá;-7674111.55;-1018244.03;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T1-C1-500;Cazumbá-iracema;não;Cuidado;-7682921.37;-1015966.08;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T1-C2-950;Cazumbá-iracema;não;Cuidado;-7682648.41;-1016385.59;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T1-C3-1500;Cazumbá-iracema;não;Cuidado;-7682384.25;-1016901.89;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T1-C4-2670;Cazumbá-iracema;não;Cuidado;-7681778.01;-1017457.41;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T1-C5-4100;Cazumbá-iracema;não;Cuidado;-7681388.5;-1018978.36;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T2-C1-900;Cazumbá-iracema;não;Cuidado;-7684145.55;-1016349.86;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T2-C1.2-2700;Cazumbá-iracema;não;Cuidado;-7684680.22;-1018120.13;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T2-C2-3500;Cazumbá-iracema;não;Cuidado;-7684354.17;-1019091.73;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T2-C3-4600;Cazumbá-iracema;não;Cuidado;-7684400.47;-1020175.16;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T2-C4-6500;Cazumbá-iracema;não;Cuidado;-7685128.5;-1021988.62;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T2-C6-7000;Cazumbá-iracema;não;Cuidado;-7685351.48;-1022486.29;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T3-C1-1460;Cazumbá-iracema;não;Cuidado;-7685018.18;-1014916.38;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T3-C2-2070;Cazumbá-iracema;não;Cuidado;-7684987.46;-1013927.86;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T3-C3-3300;Cazumbá-iracema;não;Cuidado;-7685849.19;-1012981.03;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T3-C4-4100;Cazumbá-iracema;não;Cuidado;-7686549.5;-1012574.89;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+CUI-T3-C5-5670;Cazumbá-iracema;não;Cuidado;-7688332.17;-1012203.24;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T1-C1-1300;Cazumbá-iracema;não;Granja;-7692567.98;-1017890.6;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T1-C2-1800;Cazumbá-iracema;não;Granja;-7692667.17;-1018401.32;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T1-C3-2800;Cazumbá-iracema;não;Granja;-7692761.34;-1019375.04;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T1-C4-4100;Cazumbá-iracema;não;Granja;-7693236.57;-1020671;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T1-C5-6000;Cazumbá-iracema;não;Granja;-7693101.43;-1022574.35;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T2-C1-2060;Cazumbá-iracema;não;Granja;-7692243.15;-1014545.61;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T2-C2-3600;Cazumbá-iracema;não;Granja;-7691622.44;-1013024.71;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T2-C3-4500;Cazumbá-iracema;não;Granja;-7691650.82;-1012124.5;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T2-C4-6000;Cazumbá-iracema;não;Granja;-7692752.78;-1010601.69;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T2-C5-1300;Cazumbá-iracema;não;Granja;-7692687.87;-1015319.41;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T2-C6-5600;Cazumbá-iracema;não;Granja;-7692522.67;-1010942.4;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T3-C1-2100;Cazumbá-iracema;não;Granja;-7693052.78;-1014538.11;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T3-C2-980;Cazumbá-iracema;não;Granja;-7692893.26;-1015740.59;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T3-C3-3100;Cazumbá-iracema;não;Granja;-7693598.8;-1013706.86;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T3-C4-4100;Cazumbá-iracema;não;Granja;-7693846.61;-1012666.29;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+GRA-T3-C5-4330;Cazumbá-iracema;não;Granja;-7693761.44;-1012455.93;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+IND-T1-C1-500;Médio Purus;não;Independência;-7246658.73;-812173.508;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IND-T1-C2-1000;Médio Purus;não;Independência;-7246434.97;-811545.008;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IND-T1-C3-1800;Médio Purus;não;Independência;-7246064.4;-810804.345;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IND-T1-C4-3250;Médio Purus;não;Independência;-7244411.52;-809890.67;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IND-T1-C5-4300;Médio Purus;não;Independência;-7243725.91;-809126.52;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IND-T1-C6-5900;Médio Purus;não;Independência;-7242984.96;-807685.433;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C1-480;Médio Purus;sim;Iutari;-7248833.91;-819716.021;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C2-1000;Médio Purus;sim;Iutari;-7248426.59;-820068.963;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C3-1750;Médio Purus;sim;Iutari;-7247846.51;-820538.887;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C4-2800;Médio Purus;sim;Iutari;-7247132.51;-821198.507;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C5-3300;Médio Purus;sim;Iutari;-7247334.44;-822215.431;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C6-4000;Médio Purus;sim;Iutari;-7247363.16;-823069.681;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C7-4700;Médio Purus;sim;Iutari;-7247240.59;-823698.217;Purus varzeá;PV;Amazon River and Flooded Forests;32
+IUT-T1-C8-5300;Médio Purus;sim;Iutari;-7246624.11;-824050.964;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LAG-T1-C1-800;Arapixi;sim;Lago do Alfredo;-7529629.31;-985930.55;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LAG-T1-C2-1380;Arapixi;sim;Lago do Alfredo;-7530112.66;-986281.576;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LAG-T1-C3-2400;Arapixi;sim;Lago do Alfredo;-7530705.66;-987193.625;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LAG-T1-C4-3550;Arapixi;sim;Lago do Alfredo;-7531020.92;-988455.295;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LAG-T1-C5-5000;Arapixi;sim;Lago do Alfredo;-7531748.72;-989766.134;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LAG-T1-C6-6070;Arapixi;sim;Lago do Alfredo;-7532598.32;-990484.264;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C1-1800;Médio Purus;não;Limeira;-7424271.54;-857201.977;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C1-770;Riozinho_Liberdade;não;Limão;-8023069.32;-876685.777;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C10-5800;Riozinho_Liberdade;não;Limão;-8027097.86;-880149.699;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C2-1300;Riozinho_Liberdade;não;Limão;-8023561.68;-876716.93;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C2-2400;Médio Purus;não;Limeira;-7423810.89;-857515.245;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C3-1800;Riozinho_Liberdade;não;Limão;-8024127.3;-876607.513;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C3-3100;Médio Purus;não;Limeira;-7423357.71;-858169.243;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C4-2400;Riozinho_Liberdade;não;Limão;-8024705.61;-876566.318;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C4-3600;Médio Purus;não;Limeira;-7423068.17;-858696.569;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C5-2800;Riozinho_Liberdade;não;Limão;-8025100.45;-876957.533;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C5-4200;Médio Purus;não;Limeira;-7422657.63;-858982.054;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C6-3380;Riozinho_Liberdade;não;Limão;-8025550.74;-877758.847;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C6-4900;Médio Purus;não;Limeira;-7422187.86;-859533.834;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C7-3930;Riozinho_Liberdade;não;Limão;-8025981.55;-878227.674;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C7-5700;Médio Purus;não;Limeira;-7421538.09;-860039.201;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T1-C8-4550;Riozinho_Liberdade;não;Limão;-8026134.72;-879274.426;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T1-C9-5170;Riozinho_Liberdade;não;Limão;-8026651.8;-879625.805;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+LIM-T2-C1-1000;Médio Purus;não;Limeira;-7425334.31;-857307.775;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C2-1500;Médio Purus;não;Limeira;-7425507.07;-857869.469;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C3-2000;Médio Purus;não;Limeira;-7425490.6;-858433.406;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C4-2600;Médio Purus;não;Limeira;-7425255.04;-859020.119;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C5-3300;Médio Purus;não;Limeira;-7425029.29;-859575.8;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C6-4100;Médio Purus;não;Limeira;-7424388.43;-860303.824;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C7-5000;Médio Purus;não;Limeira;-7423930.78;-860987.993;Purus varzeá;PV;Amazon River and Flooded Forests;32
+LIM-T2-C8-6000;Médio Purus;não;Limeira;-7423528.59;-861892.826;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T1-C1-600;Médio Purus;não;Maloca;-7336187.77;-859224.35;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T1-C2-1100;Médio Purus;não;Maloca;-7335685.05;-859349.687;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T1-C3-1900;Médio Purus;não;Maloca;-7335035.16;-859937.86;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T1-C4-3000;Médio Purus;não;Maloca;-7334551.59;-861128.282;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T1-C5-3800;Médio Purus;não;Maloca;-7334272.62;-861982.674;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C1-3300;Médio Purus;não;Maloca;-7339856.97;-860420.676;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C2-3200;Médio Purus;não;Maloca;-7339369.72;-861125.944;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C3-3700;Médio Purus;não;Maloca;-7339224.79;-861920.611;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C4-4500;Médio Purus;não;Maloca;-7339264.52;-862940.206;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C5-5000;Médio Purus;não;Maloca;-7339602.27;-863362.898;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C6-5500;Médio Purus;não;Maloca;-7339486.04;-863993.196;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAL-T2-C7-6200;Médio Purus;não;Maloca;-7339908.06;-864546.822;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T1-C1-680;Arapixi;não;Manitiã;-7551357.43;-987401.607;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T1-C2-1450;Arapixi;não;Manitiã;-7551643.3;-986487.536;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T1-C3-2150;Arapixi;não;Manitiã;-7551514.62;-985628.774;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T1-C4-3550;Arapixi;não;Manitiã;-7551702.29;-984202.222;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAN-T1-C5-6000;Arapixi;não;Manitiã;-7551978.93;-981730.229;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAN-T2-C1-1700;Arapixi;não;Manitiã;-7552344.16;-988093.282;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T2-C2-2500;Arapixi;não;Manitiã;-7553249.98;-987669.929;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T2-C3-3300;Arapixi;não;Manitiã;-7554016.97;-987371.161;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T2-C4-3900;Arapixi;não;Manitiã;-7554605.06;-987254.63;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAN-T2-C5-4600;Arapixi;não;Manitiã;-7554920.77;-985689.448;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAP-T1-C1-1100;Riozinho_Liberdade;não;Mapes;-8018009.74;-863953.238;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T1-C3-2560;Riozinho_Liberdade;não;Mapes;-8019340;-863130.628;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T1-C4-3950;Riozinho_Liberdade;não;Mapes;-8020527.12;-862329.232;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T1-C5-6050;Riozinho_Liberdade;não;Mapes;-8022048.41;-860870.69;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T2-C1-2500;Riozinho_Liberdade;não;Mapes_2;-8017972.45;-862518.866;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T2-C2-3000;Riozinho_Liberdade;não;Mapes_2;-8018288.48;-862094.844;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T2-C3-4000;Riozinho_Liberdade;não;Mapes_2;-8018415.72;-861066.005;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T2-C4-4950;Riozinho_Liberdade;não;Mapes_2;-8018679.55;-860154.042;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAP-T2-C5-6200;Riozinho_Liberdade;não;Mapes_2;-8018509.9;-858830.724;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MAR-T1-C1-1000;Arapixi;não;Maracaju;-7542056.36;-981517.699;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MAR-T1-C2-1600;Arapixi;não;Maracaju;-7542215.31;-980892.619;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAR-T1-C3-2500;Arapixi;não;Maracaju;-7542728.73;-980115.795;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAR-T1-C4-3900;Arapixi;não;Maracaju;-7543691.75;-979054.602;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAR-T1-C5-5000;Arapixi;não;Maracaju;-7544122.67;-978024.665;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MAR-T1-C6-5400;Arapixi;não;Maracaju;-7543973.5;-977684;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MOI-T1-C1-475;Arapixi;não;Moisés;-7536658.03;-980484.782;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MOI-T1-C2-1300;Arapixi;não;Moisés;-7537653.11;-980240.353;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MOI-T1-C3-2300;Arapixi;não;Moisés;-7538421;-979590.791;Purus varzeá;PV;Amazon River and Flooded Forests;32
+MOI-T1-C4-3500;Arapixi;não;Moisés;-7539366.32;-978856.513;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MOI-T1-C5-4600;Arapixi;não;Moisés;-7540362.18;-978310.935;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MOI-T1-C6-5700;Arapixi;não;Moisés;-7541039.34;-977334.062;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+MOR-T1-C1-800;Riozinho_Liberdade;não;Morro da Pedra;-8021536.12;-869381.856;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T1-C2-1300;Riozinho_Liberdade;não;Morro da Pedra;-8021920.28;-869080.344;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T1-C3-2250;Riozinho_Liberdade;não;Morro da Pedra;-8022826.42;-868686.736;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T1-C4-3070;Riozinho_Liberdade;não;Morro da Pedra;-8023531.07;-868224.82;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T2-C1-700;Riozinho_Liberdade;não;Morro da Pedra;-8021830.56;-870082.123;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T2-C2-1400;Riozinho_Liberdade;não;Morro da Pedra;-8022516.73;-869790.431;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T2-C3-2200;Riozinho_Liberdade;não;Morro da Pedra;-8023145.24;-869364.443;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T3-C1-4000;Riozinho_Liberdade;não;Morro da Pedra;-8025182.95;-870324.253;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T3-C2-5340;Riozinho_Liberdade;não;Morro da Pedra;-8026502.75;-869741.869;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+MOR-T3-C3-6000;Riozinho_Liberdade;não;Morro da Pedra;-8027169.67;-869717.317;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+NVA-T1-C1-500;Arapixi;não;T;-7566018.99;-1000561.36;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T1-C2-1100;Arapixi;não;T;-7566006.19;-1001241.94;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T1-C3-2000;Arapixi;não;T;-7565983.37;-1002122.09;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T1-C4-3250;Arapixi;não;T;-7565986.71;-1003405.5;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T1-C5-5500;Arapixi;não;T;-7565895.65;-1005600.3;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T2-C1-490;Arapixi;não;U;-7567111.25;-994690.759;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T2-C2-1250;Arapixi;não;U;-7567879.14;-994548.231;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T2-C3-1950;Arapixi;não;U;-7568467.35;-994048.011;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T2-C4-3250;Arapixi;não;U;-7568666.39;-992354.6;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T2-C5-4000;Arapixi;não;U;-7568856.86;-991678.747;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+NVA-T3-C1-2390;Arapixi;não;Nova Amélia;-7560016.19;-998192.844;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T3-C2-3050;Arapixi;não;Nova Amélia;-7559924.46;-999188.467;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T3-C3-3750;Arapixi;não;Nova Amélia;-7559457.93;-999696.597;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T3-C4-4900;Arapixi;não;Nova Amélia;-7558770.97;-1000656.98;Purus varzeá;PV;Amazon River and Flooded Forests;32
+NVA-T3-C5-5800;Arapixi;não;Nova Amélia;-7558320.57;-1001397.15;Purus varzeá;PV;Amazon River and Flooded Forests;32
+PER-T1-C1-1080;Riozinho_Liberdade;não;Periquito;-8023289.84;-895024.669;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T1-C2-1550;Riozinho_Liberdade;não;Periquito;-8023784.1;-894757.831;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T1-C3-2770;Riozinho_Liberdade;não;Periquito;-8024879.15;-894135.035;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T1-C4-4000;Riozinho_Liberdade;não;Periquito;-8025983.45;-893645.822;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T1-C5-5850;Riozinho_Liberdade;não;Periquito;-8027732.05;-892919.614;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T2-C1-550;Riozinho_Liberdade;não;Periquito;-8021718.13;-895301.675;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T2-C2-1550;Riozinho_Liberdade;não;Periquito;-8021077.14;-896081.755;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T2-C3-2460;Riozinho_Liberdade;não;Periquito;-8020435.28;-896877.709;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T2-C4-4090;Riozinho_Liberdade;não;Periquito;-8018920.66;-897501.78;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T2-C5-5670;Riozinho_Liberdade;não;Periquito;-8017749.81;-898601.817;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T3-C1-400;Riozinho_Liberdade;não;Periquito;-8021171.1;-894453.247;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T3-C2-1520;Riozinho_Liberdade;não;Periquito;-8020672.28;-894982.221;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T3-C3-2580;Riozinho_Liberdade;não;Periquito;-8019649.81;-895324.566;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T3-C4-3880;Riozinho_Liberdade;não;Periquito;-8018323.55;-895622.798;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T3-C5-5670;Riozinho_Liberdade;não;Periquito;-8016697.95;-895688.914;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T4-C1-1350;Riozinho_Liberdade;não;Periquito;-8023440.35;-895571.531;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T4-C2-2070;Riozinho_Liberdade;não;Periquito;-8024164.48;-895729.125;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T4-C3-2830;Riozinho_Liberdade;não;Periquito;-8024877.7;-896009.825;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T4-C4-4000;Riozinho_Liberdade;não;Periquito;-8026127.49;-895906.166;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+PER-T4-C5-6000;Riozinho_Liberdade;não;Periquito;-8028255.36;-895643.348;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+POR-T1-C1-500;Médio Purus;não;Porongaba;-7382081.56;-843632.775;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T1-C2-1000;Médio Purus;não;Porongaba;-7381691.27;-844023.159;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T1-C3-1980;Médio Purus;não;Porongaba;-7381345.4;-845021.715;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T1-C4-3250;Médio Purus;não;Porongaba;-7380664.68;-846151.96;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T1-C5-4500;Médio Purus;não;Porongaba;-7380210.06;-847368.817;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T2-C1-2400;Médio Purus;não;Porongaba;-7380865.4;-845193.323;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T2-C2-3000;Médio Purus;não;Porongaba;-7380204.83;-845262.377;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T2-C3-3800;Médio Purus;não;Porongaba;-7379373.72;-845608.933;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T2-C4-4100;Médio Purus;não;Porongaba;-7378947.36;-845443.244;Purus varzeá;PV;Amazon River and Flooded Forests;32
+POR-T2-C5-3300;Médio Purus;não;Porongaba;-7379701.77;-845182.269;Purus varzeá;PV;Amazon River and Flooded Forests;32
+RED-T1-C1-750;Cazumbá-iracema;não;Redenção;-7685191.62;-1040783.81;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T1-C2-1500;Cazumbá-iracema;não;Redenção;-7685997.36;-1040560.64;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T1-C3-2550;Cazumbá-iracema;não;Redenção;-7686959.04;-1040078.43;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T1-C4-3850;Cazumbá-iracema;não;Redenção;-7688153.28;-1039477.09;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T1-C5-6050;Cazumbá-iracema;não;Redenção;-7690664.31;-1039572.7;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T2-C1-1550;Cazumbá-iracema;não;Redenção;-7686262.74;-1041027.38;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T2-C2-2100;Cazumbá-iracema;não;Redenção;-7686892.03;-1041209.74;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T2-C3-3050;Cazumbá-iracema;não;Redenção;-7687783.81;-1041342.91;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T2-C4-4380;Cazumbá-iracema;não;Redenção;-7689079.34;-1042099.53;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T2-C5-6200;Cazumbá-iracema;não;Redenção;-7690664.31;-1043317.33;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T3-C1-950;Cazumbá-iracema;não;Redenção;-7684170.49;-1042151.77;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T3-C2-1700;Cazumbá-iracema;não;Redenção;-7683296.63;-1042302.64;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T3-C3-2500;Cazumbá-iracema;não;Redenção;-7682241.55;-1042076.78;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T3-C4-3550;Cazumbá-iracema;não;Redenção;-7681125.79;-1042013.79;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T3-C5-4500;Cazumbá-iracema;não;Redenção;-7680264.51;-1042501.5;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+RED-T3-C6-6100;Cazumbá-iracema;não;Redenção;-7678712.49;-1042807.08;Southwest Amazon moist forests;SWA;Southwestern Amazonian Moist Forests;36
+REM-T1-C1-950;Médio Purus;não;Remanso;-7318022.21;-851029.05;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T1-C2-1500;Médio Purus;não;Remanso;-7317835.08;-850443.447;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T1-C3-2300;Médio Purus;não;Remanso;-7317676.22;-849653.091;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T1-C4-3750;Médio Purus;não;Remanso;-7317170.84;-848279.071;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T1-C5-4500;Médio Purus;não;Remanso;-7317355.4;-847491.548;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+REM-T1-C6-5600;Médio Purus;não;Remanso;-7317463.16;-846381.695;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+REM-T2-C1-1150;Médio Purus;não;Remanso;-7317641.61;-850885.77;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T2-C2-1850;Médio Purus;não;Remanso;-7317382.34;-850295.147;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T2-C3-2700;Médio Purus;não;Remanso;-7316964.23;-849585.919;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T2-C4-4000;Médio Purus;não;Remanso;-7316643.06;-848294.138;Purus varzeá;PV;Amazon River and Flooded Forests;32
+REM-T2-C5-4950;Médio Purus;não;Remanso;-7315786.24;-847637.716;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+REM-T2-C6-5900;Médio Purus;não;Remanso;-7315060.89;-846934.776;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+ROC-T1-C3-4070;Arapixi;sim;Rocha;-7577823.42;-1005618.78;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T1-C4-4880;Arapixi;sim;Rocha;-7578505.14;-1006104.14;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T1-C5-6050;Arapixi;sim;Rocha;-7579269.57;-1006951.24;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T2-C1-1150;Arapixi;sim;Rocha;-7575506.75;-1003621.73;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T2-C2-1850;Arapixi;sim;Rocha;-7576352.11;-1003916.59;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T2-C3-2780;Arapixi;sim;Rocha;-7577110.52;-1004497.12;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T2-C4-5400;Arapixi;sim;Rocha;-7578550.22;-1006845.3;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T2-C5-6000;Arapixi;sim;Rocha;-7578697.72;-1007400.11;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T3-C1-500;Arapixi;não;V;-7578068.43;-1001048.56;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T3-C2-1500;Arapixi;não;V;-7577390.49;-1000162.84;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T3-C3-2770;Arapixi;não;V;-7576675.71;-999212.653;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T3-C4-3500;Arapixi;não;V;-7577053.2;-998207.841;Purus varzeá;PV;Amazon River and Flooded Forests;32
+ROC-T3-C5-5000;Arapixi;não;V;-7576066.68;-996931.207;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SAN-T1-C1-3500;Arapixi;sim;Santana;-7520673.33;-981987.097;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SAN-T1-C2-3000;Arapixi;sim;Santana;-7521011.07;-981572.203;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SAN-T1-C3-2500;Arapixi;sim;Santana;-7521221.46;-981101.122;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SAN-T1-C4-1700;Arapixi;sim;Santana;-7522092.87;-980395.701;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SAN-T1-C5-2000;Arapixi;sim;Santana;-7521698.24;-980686.575;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SAN-T1-C6-1900;Arapixi;sim;Santana;-7521277.23;-980449.078;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T1-C1-500;Médio Purus;não;São Francisco;-7298594.73;-845297.531;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T1-C2-1000;Médio Purus;não;São Francisco;-7299125.83;-845252.894;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T1-C3-1600;Médio Purus;não;São Francisco;-7299791.85;-844898.429;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T1-C4-3100;Médio Purus;não;São Francisco;-7301207.51;-844396.246;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T1-C5-4600;Médio Purus;não;São Francisco;-7302766.53;-844340.912;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SFO-T1-C6-6000;Médio Purus;não;São Francisco;-7304224.27;-844486.959;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SFO-T2-C1-1000;Médio Purus;não;São Francisco;-7298444.89;-843896.304;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T2-C2-1550;Médio Purus;não;São Francisco;-7298575.24;-843496.999;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SFO-T2-C3-2400;Médio Purus;não;São Francisco;-7299379.19;-842935.916;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SFO-T2-C4-3750;Médio Purus;não;São Francisco;-7300679.63;-842150.38;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SFO-T2-C5-4760;Médio Purus;não;São Francisco;-7301458.08;-841499.402;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SFO-T2-C6-6000;Médio Purus;não;São Francisco;-7302329.83;-840652.08;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SJE-T1-C1-1200;Arapixi;não;S;-7557909.02;-988619.625;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T1-C2-1900;Arapixi;não;S;-7558282.28;-987953.687;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T1-C3-2600;Arapixi;não;S;-7558368.22;-987256.647;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SJE-T1-C4-3900;Arapixi;não;S;-7559158.81;-986185.539;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SJE-T1-C5-5100;Arapixi;não;S;-7559078.55;-984834.512;Juruá-Purus moist forests;JPF;Southwestern Amazonian Moist Forests;36
+SJE-T2-C1-650;Arapixi;não;Extrema;-7553975.55;-996654.658;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T2-C2-1420;Arapixi;não;Extrema;-7553551.1;-997362.719;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T2-C3-2250;Arapixi;não;Extrema;-7553252.53;-998192.619;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T2-C4-3700;Arapixi;não;Extrema;-7552844.55;-999619.112;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T2-C5-6070;Arapixi;não;Extrema;-7550983.29;-1001298.94;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T3-C1-1150;Arapixi;não;Extrema;-7553451.8;-996716.466;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T3-C2-1900;Arapixi;não;Extrema;-7552728.55;-997050.9;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T3-C3-2700;Arapixi;não;Extrema;-7552054.62;-997508.165;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T4-C1-450;Arapixi;não;Extrema;-7554984.89;-996227.292;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T4-C2-1070;Arapixi;não;Extrema;-7554850.08;-997382.99;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T4-C3-1930;Arapixi;não;Extrema;-7554748.11;-998178.4;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T4-C4-3250;Arapixi;não;Extrema;-7554403.02;-999603.1;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T4-C5-5500;Arapixi;não;Extrema;-7555084.74;-1001850.2;Purus varzeá;PV;Amazon River and Flooded Forests;32
+SJE-T4-C6-6550;Arapixi;não;Extrema;-7554618.98;-1002911.1;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T1-C1-1170;Arapixi;sim;Santa Amélia;-7589598.35;-1010382.61;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T1-C2-1750;Arapixi;sim;Santa Amélia;-7590017.24;-1010868.37;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T1-C3-2700;Arapixi;sim;Santa Amélia;-7590470.76;-1011743.9;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T1-C4-4200;Arapixi;sim;Santa Amélia;-7590571.84;-1013300.37;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T1-C5-6200;Arapixi;sim;Santa Amélia;-7590447.38;-1015395.47;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T2-C1-2250;Arapixi;sim;Santa Amélia;-7590440.26;-1011241.23;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T2-C2-2900;Arapixi;sim;Santa Amélia;-7589503.05;-1012157.21;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T2-C3-2800;Arapixi;sim;Santa Amélia;-7590071.23;-1011954.37;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T2-C4-5000;Arapixi;sim;Santa Amélia;-7591575.38;-1013750.21;Purus varzeá;PV;Amazon River and Flooded Forests;32
+STA-T2-C5-5950;Arapixi;sim;Santa Amélia;-7592422.64;-1014390.58;Purus varzeá;PV;Amazon River and Flooded Forests;32

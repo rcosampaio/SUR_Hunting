@@ -1,0 +1,39 @@
+
+model {
+  # Priors
+  
+  r ~ dunif(0,1)  # per individual detection probability (assuming it remains constant across sites and years)
+  
+  a0 ~ dnorm(0,0.5)  # intercept on lambda
+  a1 ~ dnorm(0,0.5)  # slope on lambda for hydrography
+  a2 ~ dnorm(0,0.5)  # slope on lambda for floodded
+  a3 ~ dnorm(0,0.5)  # slope on lambda for deforestation
+  a4 ~ dnorm(0,0.5)  # slope on lambda for Pa
+  a5 ~ dnorm(0,0.5)  # slope on lambda for City HP
+  a6 ~ dnorm(0,0.5)  # slope on lambda for Local HP
+  
+  ### random community effects 
+  
+  for (i in 1:n.comunidade){
+  eps.comm[i] ~ dnorm (0, tau)  # random community effects
+  }
+  tau <- 1/(sd.tau*sd.tau)
+  sd.tau ~ dunif(0,3)
+
+
+  for(i in 1:nSites){
+  
+    # population abundanceos.
+    log(lambda[i]) <- a0 + a1*Hyd[i] + a2*Flo[i] + a3*Def[i] + a4*UC[i] + a5*HP.C[i] + a6*HP.L[i] + eps.comm[Comunidade[i]]
+    
+  
+  N[i] ~ dpois(lambda[i])
+    
+  # detection model
+  p[i] <- 1-pow(1-r, N[i])  # probability of detecting the species per sampling replicate
+  y[i] ~ dbin(p[i], k[i])  # model observation data as binomial outcome with prob p and k trials
+        
+      }
+    } # i
+
+

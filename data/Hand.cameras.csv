@@ -1,0 +1,721 @@
+﻿camera_id;RESEX;Entorno;Comunidade;RASTERVALU
+GRA-T3-C1-2100;Cazumbá-iracema;não;Granja;15.25
+GRA-T2-C6-5600;Cazumbá-iracema;não;Granja;5.699999809
+GRA-T3-C3-3100;Cazumbá-iracema;não;Granja;13.47999954
+GRA-T3-C2-980;Cazumbá-iracema;não;Granja;23.94000053
+GRA-T3-C5-4330;Cazumbá-iracema;não;Granja;11.56999969
+GRA-T3-C4-4100;Cazumbá-iracema;não;Granja;12.5
+C3-T2-C1-200;Cazumbá-iracema;sim;Repouso;24.78000069
+RED-T3-C2-1700;Cazumbá-iracema;não;Redenção;11.59000015
+RED-T3-C3-2500;Cazumbá-iracema;não;Redenção;22.07999992
+RED-T1-C2-1500;Cazumbá-iracema;não;Redenção;5.670000076
+RED-T1-C3-2550;Cazumbá-iracema;não;Redenção;0
+RED-T2-C2-2100;Cazumbá-iracema;não;Redenção;14.60999966
+RED-T1-C1-750;Cazumbá-iracema;não;Redenção;0
+RED-T1-C5-6050;Cazumbá-iracema;não;Redenção;17
+RED-T2-C1-1550;Cazumbá-iracema;não;Redenção;7.210000038
+CUI-T3-C2-2070;Cazumbá-iracema;não;Cuidado;0
+CUI-T3-C1-1460;Cazumbá-iracema;não;Cuidado;0
+CUI-T3-C4-4100;Cazumbá-iracema;não;Cuidado;3.25
+CUI-T3-C3-3300;Cazumbá-iracema;não;Cuidado;3.25
+CUI-T2-C6-7000;Cazumbá-iracema;não;Cuidado;27.39999962
+CUI-T3-C5-5670;Cazumbá-iracema;não;Cuidado;10.53999996
+GRA-T1-C2-1800;Cazumbá-iracema;não;Granja;0
+GRA-T1-C1-1300;Cazumbá-iracema;não;Granja;0
+GRA-T1-C4-4100;Cazumbá-iracema;não;Granja;26.84000015
+GRA-T1-C3-2800;Cazumbá-iracema;não;Granja;0
+GRA-T2-C1-2060;Cazumbá-iracema;não;Granja;13.56000042
+GRA-T1-C5-6000;Cazumbá-iracema;não;Granja;39.86999893
+GRA-T2-C3-4500;Cazumbá-iracema;não;Granja;0
+GRA-T2-C2-3600;Cazumbá-iracema;não;Granja;12.89000034
+GRA-T2-C5-1300;Cazumbá-iracema;não;Granja;15.25
+GRA-T2-C4-6000;Cazumbá-iracema;não;Granja;0
+CAZ-T2-C5-6500;Cazumbá-iracema;não;Cazumbá;17.84000015
+CAZ-T2-C4-4060;Cazumbá-iracema;não;Cazumbá;12.18000031
+CAZ-T3-C2-2100;Cazumbá-iracema;não;Cazumbá;29.55999947
+CAZ-T3-C1-1500;Cazumbá-iracema;não;Cazumbá;11.60000038
+CAZ-T3-C4-4700;Cazumbá-iracema;não;Cazumbá;19.10000038
+CAZ-T3-C3-3050;Cazumbá-iracema;não;Cazumbá;32.38999939
+CUI-T1-C2-950;Cazumbá-iracema;não;Cuidado;27.52000046
+CUI-T1-C1-500;Cazumbá-iracema;não;Cuidado;0
+CUI-T1-C4-2670;Cazumbá-iracema;não;Cuidado;16.63999939
+CUI-T1-C3-1500;Cazumbá-iracema;não;Cuidado;27.52000046
+CUI-T2-C1.2-2700;Cazumbá-iracema;não;Cuidado;15.22000027
+CUI-T1-C5-4100;Cazumbá-iracema;não;Cuidado;0
+CUI-T2-C2-3500;Cazumbá-iracema;não;Cuidado;35.99000168
+CUI-T2-C1-900;Cazumbá-iracema;não;Cuidado;0
+CUI-T2-C4-6500;Cazumbá-iracema;não;Cuidado;27.39999962
+CUI-T2-C3-4600;Cazumbá-iracema;não;Cuidado;32.13999939
+C4-T1-C2-1700;Cazumbá-iracema;sim;Jair;19.30999947
+C4-T1-C1-1100;Cazumbá-iracema;sim;Jair;19.30999947
+C4-T1-C4-3850;Cazumbá-iracema;sim;Jair;7.03000021
+C4-T1-C3-2550;Cazumbá-iracema;sim;Jair;14.75
+C4-T2-C1-1970;Cazumbá-iracema;sim;Apuí;12.89000034
+C4-T1-C5-6000;Cazumbá-iracema;sim;Jair;13.92000008
+C4-T2-C3-3950;Cazumbá-iracema;sim;Apuí;39.06999969
+C4-T2-C2-3100;Cazumbá-iracema;sim;Apuí;28.95000076
+C4-T2-C5-6040;Cazumbá-iracema;sim;Apuí;18.14999962
+C4-T2-C4-4950;Cazumbá-iracema;sim;Apuí;44.09000015
+CAZ-T1-C2-680;Cazumbá-iracema;não;Cazumbá;6.570000172
+CAZ-T1-C1-250;Cazumbá-iracema;não;Cazumbá;6.570000172
+CAZ-T2-C1-450;Cazumbá-iracema;não;Cazumbá;8.5
+CAZ-T1-C3-1320;Cazumbá-iracema;não;Cazumbá;0
+CAZ-T2-C3-2700;Cazumbá-iracema;não;Cazumbá;21.21999931
+CAZ-T2-C2-2000;Cazumbá-iracema;não;Cazumbá;8.029999733
+C2-T3-C4-3800;Cazumbá-iracema;sim;Lua Nova;26.70999908
+C2-T3-C3-2500;Cazumbá-iracema;sim;Lua Nova;23.62000084
+C2-T4-C1-1050;Cazumbá-iracema;sim;Panela;16.28000069
+C2-T3-C5-5100;Cazumbá-iracema;sim;Lua Nova;35.95999908
+C2-T4-C3-2500;Cazumbá-iracema;sim;Panela;30.59000015
+C2-T4-C2-1500;Cazumbá-iracema;sim;Panela;16.28000069
+C2-T4-C5-6320;Cazumbá-iracema;sim;Panela;31.57999992
+C2-T4-C4-4000;Cazumbá-iracema;sim;Panela;33.45000076
+C3-T1-C2-1240;Cazumbá-iracema;sim;Repouso;0
+C3-T1-C1-830;Cazumbá-iracema;sim;Repouso;3.269999981
+C3-T1-C4-3440;Cazumbá-iracema;sim;Repouso;18.69000053
+C3-T1-C3-2400;Cazumbá-iracema;sim;Repouso;12.14000034
+C3-T2-C2-550;Cazumbá-iracema;sim;Repouso;24.78000069
+C3-T1-C5-6050;Cazumbá-iracema;sim;Repouso;35.77000046
+C3-T2-C4-3000;Cazumbá-iracema;sim;Repouso;41.50999832
+C3-T2-C3-1300;Cazumbá-iracema;sim;Repouso;37.81000137
+C1-T4-C3-3070;Cazumbá-iracema;sim;Providência;32.56999969
+C1-T4-C2-2250;Cazumbá-iracema;sim;Providência;21.62000084
+C1-T4-C5-5700;Cazumbá-iracema;sim;Providência;37.25999832
+C1-T4-C4-4280;Cazumbá-iracema;sim;Providência;31.37000084
+C2-T1-C2-2050;Cazumbá-iracema;sim;Lua Nova;17.92000008
+C2-T1-C1-1280;Cazumbá-iracema;sim;Lua Nova;3.519999981
+C2-T1-C4-4000;Cazumbá-iracema;sim;Lua Nova;36.68999863
+C2-T1-C3-2950;Cazumbá-iracema;sim;Lua Nova;36.68999863
+C2-T2-C1-950;Cazumbá-iracema;sim;Lua Nova;6.269999981
+C2-T1-C5-5800;Cazumbá-iracema;sim;Lua Nova;19.44000053
+C2-T2-C3-2500;Cazumbá-iracema;sim;Lua Nova;3.599999905
+C2-T2-C2-1500;Cazumbá-iracema;sim;Lua Nova;30.86000061
+C2-T2-C5-6000;Cazumbá-iracema;sim;Lua Nova;14.31000042
+C2-T2-C4-4000;Cazumbá-iracema;sim;Lua Nova;18.79000092
+C2-T3-C2-1600;Cazumbá-iracema;sim;Lua Nova;4.699999809
+C2-T3-C1-1000;Cazumbá-iracema;sim;Lua Nova;0
+C1-T1-C2-830;Cazumbá-iracema;sim;Providência;29.37999916
+C1-T1-C1-330;Cazumbá-iracema;sim;Providência;18.56999969
+C1-T1-C4-2600;Cazumbá-iracema;sim;Providência;37.54000092
+C1-T1-C3-1500;Cazumbá-iracema;sim;Providência;28.72999954
+C1-T2-C1-600;Cazumbá-iracema;sim;Providência;0
+C1-T1-C5-6000;Cazumbá-iracema;sim;Providência;25.68000031
+C1-T2-C3-2000;Cazumbá-iracema;sim;Providência;25.45000076
+C1-T2-C2-1200;Cazumbá-iracema;sim;Providência;18.80999947
+C1-T2-C5-6500;Cazumbá-iracema;sim;Providência;30.60000038
+C1-T2-C4-3400;Cazumbá-iracema;sim;Providência;34.45000076
+C1-T3-C2-2000;Cazumbá-iracema;sim;Providência;3.890000105
+C1-T3-C1-1370;Cazumbá-iracema;sim;Providência;0
+C1-T3-C4-4000;Cazumbá-iracema;sim;Providência;30.27000046
+C1-T3-C3-2450;Cazumbá-iracema;sim;Providência;3.890000105
+C1-T4-C1-1500;Cazumbá-iracema;sim;Providência;17.30999947
+C1-T3-C5-6000;Cazumbá-iracema;sim;Providência;52.81000137
+RED-T3-C1-950;Cazumbá-iracema;não;Redenção;0.970000029
+RED-T1-C4-3850;Cazumbá-iracema;não;Redenção;7.829999924
+RED-T2-C4-4380;Cazumbá-iracema;não;Redenção;0
+RED-T2-C5-6200;Cazumbá-iracema;não;Redenção;10.53999996
+RED-T3-C6-6100;Cazumbá-iracema;não;Redenção;19.17000008
+RED-T2-C3-3050;Cazumbá-iracema;não;Redenção;9.31000042
+RED-T3-C4-3550;Cazumbá-iracema;não;Redenção;26.14999962
+RED-T3-C5-4500;Cazumbá-iracema;não;Redenção;23.15999985
+STA-T2-C5-5950;Arapixi;sim;Santa Amélia;23.05999947
+STA-T2-C4-5000;Arapixi;sim;Santa Amélia;32.70000076
+SJE-T3-C3-2700;Arapixi;não;Extrema;7.760000229
+SJE-T4-C2-1070;Arapixi;não;Extrema;5
+SJE-T4-C1-450;Arapixi;não;Extrema;0
+SJE-T4-C4-3250;Arapixi;não;Extrema;22.86000061
+SJE-T4-C3-1930;Arapixi;não;Extrema;19.48999977
+SJE-T4-C6-6550;Arapixi;não;Extrema;0.980000019
+SJE-T4-C5-5500;Arapixi;não;Extrema;0
+STA-T1-C2-1750;Arapixi;sim;Santa Amélia;18.64999962
+STA-T1-C1-1170;Arapixi;sim;Santa Amélia;0
+STA-T1-C4-4200;Arapixi;sim;Santa Amélia;28.47999954
+STA-T1-C3-2700;Arapixi;sim;Santa Amélia;21.75
+STA-T2-C1-2250;Arapixi;sim;Santa Amélia;17.70000076
+STA-T1-C5-6200;Arapixi;sim;Santa Amélia;37.02000046
+STA-T2-C2-2900;Arapixi;sim;Santa Amélia;24.29999924
+STA-T2-C3-2800;Arapixi;sim;Santa Amélia;24.29999924
+SAN-T1-C5-2000;Arapixi;sim;Santana;0
+SAN-T1-C4-1700;Arapixi;sim;Santana;0
+SAN-T1-C1-3500;Arapixi;sim;Santana;20.06999969
+SAN-T1-C6-1900;Arapixi;sim;Santana;16.26000023
+SJE-T1-C2-1900;Arapixi;não;S;79.76999664
+SJE-T1-C1-1200;Arapixi;não;S;63.95000076
+SJE-T1-C4-3900;Arapixi;não;S;17.85000038
+SJE-T1-C3-2600;Arapixi;não;S;19.85000038
+SJE-T2-C1-650;Arapixi;não;Extrema;6.559999943
+SJE-T1-C5-5100;Arapixi;não;S;18.57999992
+SJE-T2-C3-2250;Arapixi;não;Extrema;10.36999989
+SJE-T2-C2-1420;Arapixi;não;Extrema;0
+SJE-T2-C5-6070;Arapixi;não;Extrema;7.809999943
+SJE-T2-C4-3700;Arapixi;não;Extrema;3.180000067
+SJE-T3-C2-1900;Arapixi;não;Extrema;0
+SJE-T3-C1-1150;Arapixi;não;Extrema;0
+NVA-T3-C5-5800;Arapixi;não;Nova Amélia;2.349999905
+NVA-T3-C4-4900;Arapixi;não;Nova Amélia;0
+ROC-T2-C2-1850;Arapixi;sim;Rocha;2.49000001
+ROC-T2-C1-1150;Arapixi;sim;Rocha;2.49000001
+ROC-T1-C3-4070;Arapixi;sim;Rocha;10.17000008
+ROC-T2-C3-2780;Arapixi;sim;Rocha;11.39000034
+ROC-T2-C4-5400;Arapixi;sim;Rocha;9.220000267
+ROC-T1-C5-6050;Arapixi;sim;Rocha;10.61999989
+ROC-T3-C1-500;Arapixi;não;V;43.77999878
+ROC-T2-C5-6000;Arapixi;sim;Rocha;15.03999996
+ROC-T3-C3-2770;Arapixi;não;V;31.70000076
+ROC-T3-C2-1500;Arapixi;não;V;53.86000061
+ROC-T3-C5-5000;Arapixi;não;V;59.54999924
+ROC-T3-C4-3500;Arapixi;não;V;40.65000153
+SAN-T1-C3-2500;Arapixi;sim;Santana;8.840000153
+SAN-T1-C2-3000;Arapixi;sim;Santana;8.840000153
+MOI-T1-C4-3500;Arapixi;não;Moisés;50.36000061
+MOI-T1-C3-2300;Arapixi;não;Moisés;52
+MOI-T1-C6-5700;Arapixi;não;Moisés;18.29000092
+MOI-T1-C5-4600;Arapixi;não;Moisés;21.39999962
+NVA-T1-C2-1100;Arapixi;não;T;6.650000095
+NVA-T1-C1-500;Arapixi;não;T;6.650000095
+NVA-T1-C4-3250;Arapixi;não;T;16.96999931
+NVA-T1-C3-2000;Arapixi;não;T;9.960000038
+NVA-T2-C5-4000;Arapixi;não;U;0
+NVA-T2-C4-3250;Arapixi;não;U;15.89999962
+NVA-T2-C2-1250;Arapixi;não;U;35.16999817
+NVA-T2-C1-490;Arapixi;não;U;47.47999954
+NVA-T3-C1-2390;Arapixi;não;Nova Amélia;6.78000021
+NVA-T2-C3-1950;Arapixi;não;U;41.59999847
+NVA-T3-C3-3750;Arapixi;não;Nova Amélia;19.38999939
+NVA-T3-C2-3050;Arapixi;não;Nova Amélia;9.729999542
+MAN-T1-C4-3550;Arapixi;não;Manitiã;29.27000046
+MAN-T1-C3-2150;Arapixi;não;Manitiã;63.09999847
+MAN-T2-C1-1700;Arapixi;não;Manitiã;63.11000061
+MAN-T1-C5-6000;Arapixi;não;Manitiã;21.45000076
+MAN-T2-C3-3300;Arapixi;não;Manitiã;74.12999725
+MAN-T2-C2-2500;Arapixi;não;Manitiã;57.90999985
+MAN-T2-C5-4600;Arapixi;não;Manitiã;80.18000031
+MAN-T2-C4-3900;Arapixi;não;Manitiã;72.95999908
+MAR-T1-C2-1600;Arapixi;não;Maracaju;42
+MAR-T1-C1-1000;Arapixi;não;Maracaju;40
+MAR-T1-C4-3900;Arapixi;não;Maracaju;23.44000053
+MAR-T1-C3-2500;Arapixi;não;Maracaju;32.99000168
+MAR-T1-C6-5400;Arapixi;não;Maracaju;14.11999989
+MAR-T1-C5-5000;Arapixi;não;Maracaju;14.11999989
+MOI-T1-C2-1300;Arapixi;não;Moisés;56.40999985
+MOI-T1-C1-475;Arapixi;não;Moisés;51.88999939
+ROC-T1-C4-4880;Arapixi;sim;Rocha;9.220000267
+NVA-T1-C5-5500;Arapixi;não;T;19.01000023
+BEB-T1-C1-1000;Arapixi;sim;Bebé;32.95999908
+BEB-T1-C4-3800;Arapixi;sim;Bebé;29.79000092
+BEB-T1-C3-2900;Arapixi;sim;Bebé;30.26000023
+BEB-T1-C6-6200;Arapixi;sim;Bebé;27.15999985
+BEB-T1-C5-5400;Arapixi;sim;Bebé;24.39999962
+LAG-T1-C2-1380;Arapixi;sim;Lago do Alfredo;5.039999962
+LAG-T1-C1-800;Arapixi;sim;Lago do Alfredo;0
+LAG-T1-C4-3550;Arapixi;sim;Lago do Alfredo;11.56999969
+LAG-T1-C3-2400;Arapixi;sim;Lago do Alfredo;5.590000153
+LAG-T1-C6-6070;Arapixi;sim;Lago do Alfredo;16.51000023
+LAG-T1-C5-5000;Arapixi;sim;Lago do Alfredo;10.47000027
+MAN-T1-C2-1450;Arapixi;não;Manitiã;59.68000031
+MAN-T1-C1-680;Arapixi;não;Manitiã;50.04000092
+SFO-T2-C2-1550;Médio Purus;não;São Francisco;16.52000046
+SFO-T2-C1-1000;Médio Purus;não;São Francisco;16.52000046
+SFO-T2-C4-3750;Médio Purus;não;São Francisco;19.13999939
+SFO-T2-C3-2400;Médio Purus;não;São Francisco;21.80999947
+SFO-T2-C6-6000;Médio Purus;não;São Francisco;18.81999969
+SFO-T2-C5-4760;Médio Purus;não;São Francisco;20.77000046
+MAL-T1-C2-1100;Médio Purus;não;Maloca;0
+REM-T1-C6-5600;Médio Purus;não;Remanso;42.18000031
+CAP-T2-C4-4510;Médio Purus;sim;Capacini;13.68999958
+CAP-T2-C3-600_2;Médio Purus;sim;Capacini;13.68999958
+LIM-T2-C1-1000;Médio Purus;não;Limeira;10.77999973
+LIM-T2-C3-2000;Médio Purus;não;Limeira;11.63000011
+LIM-T2-C2-1500;Médio Purus;não;Limeira;10.77999973
+LIM-T2-C5-3300;Médio Purus;não;Limeira;17.62000084
+LIM-T2-C4-2600;Médio Purus;não;Limeira;16.37000084
+LIM-T2-C7-5000;Médio Purus;não;Limeira;23.21999931
+LIM-T2-C6-4100;Médio Purus;não;Limeira;23.67000008
+POR-T2-C1-2400;Médio Purus;não;Porongaba;17.90999985
+LIM-T2-C8-6000;Médio Purus;não;Limeira;29.98999977
+POR-T2-C3-3800;Médio Purus;não;Porongaba;3.789999962
+POR-T2-C2-3000;Médio Purus;não;Porongaba;5.039999962
+POR-T2-C5-3300;Médio Purus;não;Porongaba;3.789999962
+POR-T2-C4-4100;Médio Purus;não;Porongaba;3.789999962
+BJS-T1-C6-6000;Médio Purus;sim;Bom Jesus;8.100000381
+BJS-T1-C5-4800;Médio Purus;sim;Bom Jesus;9.090000153
+BJS-T2-C2-1300;Médio Purus;sim;Bom Jesus;13.06000042
+BJS-T2-C1-750;Médio Purus;sim;Bom Jesus;6.539999962
+BJS-T2-C4-3600;Médio Purus;sim;Bom Jesus;10.40999985
+BJS-T2-C3-2200;Médio Purus;sim;Bom Jesus;9.93999958
+BJS-T2-C6-5800;Médio Purus;sim;Bom Jesus;8.630000114
+BJS-T2-C5-4700;Médio Purus;sim;Bom Jesus;10.65999985
+CAP-T1-C1-1000;Médio Purus;sim;Capacini;10.31000042
+CAP-T1-C4-3750;Médio Purus;sim;Capacini;25.93000031
+CAP-T1-C3-2500;Médio Purus;sim;Capacini;28.04999924
+CAP-T1-C6-6000;Médio Purus;sim;Capacini;31.62000084
+CAP-T1-C5-5000;Médio Purus;sim;Capacini;32.79999924
+CAP-T2-C2-500_2;Médio Purus;sim;Capacini;18.68000031
+CAP-T2-C1-620_1;Médio Purus;sim;Capacini;1.129999995
+REM-T2-C2-1850;Médio Purus;não;Remanso;12.59000015
+REM-T2-C1-1150;Médio Purus;não;Remanso;6.840000153
+REM-T2-C4-4000;Médio Purus;não;Remanso;30.52000046
+REM-T2-C3-2700;Médio Purus;não;Remanso;12.13000011
+REM-T2-C6-5900;Médio Purus;não;Remanso;34.29999924
+REM-T2-C5-4950;Médio Purus;não;Remanso;34.29999924
+SFO-T1-C2-1000;Médio Purus;não;São Francisco;20.15999985
+SFO-T1-C1-500;Médio Purus;não;São Francisco;20.15999985
+SFO-T1-C4-3100;Médio Purus;não;São Francisco;42.04000092
+SFO-T1-C3-1600;Médio Purus;não;São Francisco;47.15000153
+SFO-T1-C6-6000;Médio Purus;não;São Francisco;21.60000038
+SFO-T1-C5-4600;Médio Purus;não;São Francisco;44.34000015
+BJS-T1-C2-1700;Médio Purus;sim;Bom Jesus;6.099999905
+BJS-T1-C1-1000;Médio Purus;sim;Bom Jesus;7.21999979
+BJS-T1-C4-3800;Médio Purus;sim;Bom Jesus;8.979999542
+BJS-T1-C3-2600;Médio Purus;sim;Bom Jesus;8.329999924
+MAL-T2-C3-3700;Médio Purus;não;Maloca;9.630000114
+MAL-T2-C2-3200;Médio Purus;não;Maloca;10.10000038
+MAL-T2-C5-5000;Médio Purus;não;Maloca;16.47999954
+MAL-T2-C4-4500;Médio Purus;não;Maloca;16.47999954
+MAL-T2-C7-6200;Médio Purus;não;Maloca;15.39000034
+MAL-T2-C6-5500;Médio Purus;não;Maloca;17.36000061
+POR-T1-C2-1000;Médio Purus;não;Porongaba;0
+POR-T1-C1-500;Médio Purus;não;Porongaba;0
+POR-T1-C4-3250;Médio Purus;não;Porongaba;6.730000019
+POR-T1-C3-1980;Médio Purus;não;Porongaba;17.90999985
+REM-T1-C1-950;Médio Purus;não;Remanso;9.409999847
+POR-T1-C5-4500;Médio Purus;não;Porongaba;3.700000048
+REM-T1-C3-2300;Médio Purus;não;Remanso;12.59000015
+REM-T1-C2-1500;Médio Purus;não;Remanso;18.82999992
+REM-T1-C5-4500;Médio Purus;não;Remanso;42.65000153
+REM-T1-C4-3750;Médio Purus;não;Remanso;43.56999969
+IUT-T1-C6-4000;Médio Purus;sim;Iutari;29.86000061
+IUT-T1-C5-3300;Médio Purus;sim;Iutari;22.60000038
+IUT-T1-C8-5300;Médio Purus;sim;Iutari;9.010000229
+IUT-T1-C7-4700;Médio Purus;sim;Iutari;7.070000172
+LIM-T1-C2-2400;Médio Purus;não;Limeira;26.47999954
+LIM-T1-C1-1800;Médio Purus;não;Limeira;26.47999954
+LIM-T1-C4-3600;Médio Purus;não;Limeira;22.61000061
+LIM-T1-C3-3100;Médio Purus;não;Limeira;22.61000061
+LIM-T1-C6-4900;Médio Purus;não;Limeira;23.51000023
+LIM-T1-C5-4200;Médio Purus;não;Limeira;23.71999931
+MAL-T1-C1-600;Médio Purus;não;Maloca;0
+LIM-T1-C7-5700;Médio Purus;não;Limeira;24.62000084
+MAL-T1-C4-3000;Médio Purus;não;Maloca;0
+MAL-T1-C3-1900;Médio Purus;não;Maloca;0
+MAL-T2-C1-3300;Médio Purus;não;Maloca;0
+MAL-T1-C5-3800;Médio Purus;não;Maloca;15.39999962
+CAP-T3-C6-4600;Médio Purus;sim;Capacini;27.81999969
+CAP-T3-C3-1700;Médio Purus;sim;Capacini;0
+CAP-T3-C2-1000;Médio Purus;sim;Capacini;1.129999995
+CAP-T3-C1-300;Médio Purus;sim;Capacini;0
+CAP-T3-C5-3500;Médio Purus;sim;Capacini;17.28000069
+CAP-T3-C4-2000;Médio Purus;sim;Capacini;11.44999981
+IND-T1-C6-5900;Médio Purus;não;Independência;7.449999809
+IND-T1-C1-500;Médio Purus;não;Independência;7.989999771
+IND-T1-C3-1800;Médio Purus;não;Independência;8.369999886
+IND-T1-C2-1000;Médio Purus;não;Independência;7.989999771
+IND-T1-C5-4300;Médio Purus;não;Independência;5.440000057
+IND-T1-C4-3250;Médio Purus;não;Independência;8.909999847
+IUT-T1-C2-1000;Médio Purus;sim;Iutari;14.94999981
+IUT-T1-C1-480;Médio Purus;sim;Iutari;4.269999981
+IUT-T1-C4-2800;Médio Purus;sim;Iutari;19.01000023
+IUT-T1-C3-1750;Médio Purus;sim;Iutari;15.72999954
+MAP-T2-C2-3000;Riozinho_Liberdade;não;Mapes_2;6.380000114
+MAP-T2-C1-2500;Riozinho_Liberdade;não;Mapes_2;6.380000114
+MAP-T2-C4-4950;Riozinho_Liberdade;não;Mapes_2;18.39999962
+MAP-T2-C3-4000;Riozinho_Liberdade;não;Mapes_2;12.67000008
+MAP-T2-C5-6200;Riozinho_Liberdade;não;Mapes_2;20.75
+C1-T2-C3-3140;Riozinho_Liberdade;sim;Santa Rita_2;25.14999962
+C1-T2-C2-2240;Riozinho_Liberdade;sim;Santa Rita_2;17.89999962
+C1-T2-C4-4400;Riozinho_Liberdade;sim;Santa Rita_2;23.04999924
+C1-T2-C1-1600;Riozinho_Liberdade;sim;Santa Rita_2;3.480000019
+C1-T1-C2-2000;Riozinho_Liberdade;sim;Santa Rita;16.06999969
+C1-T1-C1-1400;Riozinho_Liberdade;sim;Santa Rita;3.279999971
+C1-T1-C4-4345;Riozinho_Liberdade;sim;Santa Rita;23.04999924
+C1-T1-C3-2950;Riozinho_Liberdade;sim;Santa Rita;16.06999969
+C1-T1-C5-6005;Riozinho_Liberdade;sim;Santa Rita;29.32999992
+C2-T3-C5-6000;Riozinho_Liberdade;sim;São João;9.569999695
+C2-T3-C4-3850;Riozinho_Liberdade;sim;São João;8.029999733
+C2-T3-C1-700;Riozinho_Liberdade;sim;São João;11.25
+C2-T3-C3-2330;Riozinho_Liberdade;sim;São João;22.92000008
+C2-T3-C2-1300;Riozinho_Liberdade;sim;São João;17.52000046
+C2-T2-C2-3000;Riozinho_Liberdade;sim;São João_2;15.97000027
+C2-T2-C1-2300;Riozinho_Liberdade;sim;São João_2;5.539999962
+C2-T2-C4-4750;Riozinho_Liberdade;sim;São João_2;26.37000084
+C2-T2-C3-3700;Riozinho_Liberdade;sim;São João_2;19.55999947
+C2-T2-C5-6005;Riozinho_Liberdade;sim;São João_2;10.63000011
+C2-T1-C1-1900;Riozinho_Liberdade;sim;São João;6.920000076
+C2-T1-C3-3400;Riozinho_Liberdade;sim;São João;21.51000023
+C2-T1-C2-2500;Riozinho_Liberdade;sim;São João;14.98999977
+C2-T1-C5-5900;Riozinho_Liberdade;sim;São João;3.579999924
+C2-T1-C4-4300;Riozinho_Liberdade;sim;São João;10.42000008
+C3-T3-C5-6000;Riozinho_Liberdade;sim;São José;4.570000172
+C3-T3-C1-1450;Riozinho_Liberdade;sim;São José;0
+C3-T3-C3-3100;Riozinho_Liberdade;sim;São José;0
+C3-T3-C2-2000;Riozinho_Liberdade;sim;São José;14.31999969
+C3-T3-C4-4200;Riozinho_Liberdade;sim;São José;7.900000095
+C3-T2-C2-1220;Riozinho_Liberdade;sim;São José;0
+C3-T2-C1-450;Riozinho_Liberdade;sim;São José;3.059999943
+C3-T2-C4-3700;Riozinho_Liberdade;sim;São José;9.090000153
+C3-T2-C3-2020;Riozinho_Liberdade;sim;São José;17.03000069
+C3-T2-C5-6000;Riozinho_Liberdade;sim;São José;8.630000114
+C3-T1-C1-1500;Riozinho_Liberdade;sim;São José;12.81999969
+C3-T1-C3-3000;Riozinho_Liberdade;sim;São José;0
+C3-T1-C2-2230;Riozinho_Liberdade;sim;São José;3.24000001
+C3-T1-C5-4700;Riozinho_Liberdade;sim;São José;7.190000057
+C3-T1-C4-4000;Riozinho_Liberdade;sim;São José;7.190000057
+C4-T3-C6-6000;Riozinho_Liberdade;sim;São Luiz;17.53000069
+C4-T3-C5-4700;Riozinho_Liberdade;sim;São Luiz;14.35000038
+C4-T3-C1-950;Riozinho_Liberdade;sim;São Luiz;14.72999954
+C4-T3-C3-2350;Riozinho_Liberdade;sim;São Luiz;6.510000229
+C4-T3-C2-1530;Riozinho_Liberdade;sim;São Luiz;0
+C4-T3-C4-3740;Riozinho_Liberdade;sim;São Luiz;9.890000343
+C4-T2-C1-1600;Riozinho_Liberdade;sim;São Luiz_2;18.94000053
+C4-T2-C3-3250;Riozinho_Liberdade;sim;São Luiz_2;26.15999985
+C4-T2-C2-2300;Riozinho_Liberdade;sim;São Luiz_2;21.44000053
+C4-T2-C5-5150;Riozinho_Liberdade;sim;São Luiz_2;30.55999947
+C4-T2-C4-4150;Riozinho_Liberdade;sim;São Luiz_2;34.86999893
+C4-T2-C6-6150;Riozinho_Liberdade;sim;São Luiz_2;24.21999931
+C4-T1-C2-2880;Riozinho_Liberdade;sim;São Luiz;13.56999969
+C4-T1-C5-5050;Riozinho_Liberdade;sim;São Luiz;32.65999985
+C4-T1-C4-4150;Riozinho_Liberdade;sim;São Luiz;31.22999954
+C4-T1-C6-5950;Riozinho_Liberdade;sim;São Luiz;33.63000107
+C4-T1-C3-3400;Riozinho_Liberdade;sim;São Luiz;22.79000092
+MAP-T1-C3-2560;Riozinho_Liberdade;não;Mapes;16.53000069
+MAP-T1-C1-1100;Riozinho_Liberdade;não;Mapes;5.659999847
+MAP-T1-C5-6050;Riozinho_Liberdade;não;Mapes;32.68000031
+MAP-T1-C4-3950;Riozinho_Liberdade;não;Mapes;24.90999985
+MOR-T2-C1-700;Riozinho_Liberdade;não;Morro da Pedra;9.5
+MOR-T2-C3-2200;Riozinho_Liberdade;não;Morro da Pedra;18.17000008
+MOR-T2-C2-1400;Riozinho_Liberdade;não;Morro da Pedra;18.17000008
+MOR-T3-C2-5340;Riozinho_Liberdade;não;Morro da Pedra;22
+MOR-T3-C1-4000;Riozinho_Liberdade;não;Morro da Pedra;18.23999977
+MOR-T3-C3-6000;Riozinho_Liberdade;não;Morro da Pedra;28.63999939
+MOR-T1-C2-1300;Riozinho_Liberdade;não;Morro da Pedra;21.22999954
+MOR-T1-C1-800;Riozinho_Liberdade;não;Morro da Pedra;19.96999931
+MOR-T1-C4-3070;Riozinho_Liberdade;não;Morro da Pedra;27.61000061
+MOR-T1-C3-2250;Riozinho_Liberdade;não;Morro da Pedra;25.17000008
+LIM-T1-C10-5800;Riozinho_Liberdade;não;Limão;9.06000042
+LIM-T1-C1-770;Riozinho_Liberdade;não;Limão;8.479999542
+LIM-T1-C3-1800;Riozinho_Liberdade;não;Limão;18.12999916
+LIM-T1-C2-1300;Riozinho_Liberdade;não;Limão;18.12999916
+LIM-T1-C5-2800;Riozinho_Liberdade;não;Limão;22.75
+LIM-T1-C4-2400;Riozinho_Liberdade;não;Limão;12.56000042
+LIM-T1-C7-3930;Riozinho_Liberdade;não;Limão;15.89999962
+LIM-T1-C6-3380;Riozinho_Liberdade;não;Limão;15.89999962
+LIM-T1-C9-5170;Riozinho_Liberdade;não;Limão;13.19999981
+LIM-T1-C8-4550;Riozinho_Liberdade;não;Limão;28.60000038
+PER-T4-C2-2070;Riozinho_Liberdade;não;Periquito;18.93000031
+PER-T4-C1-1350;Riozinho_Liberdade;não;Periquito;18.93000031
+PER-T4-C4-4000;Riozinho_Liberdade;não;Periquito;29.09000015
+PER-T4-C3-2830;Riozinho_Liberdade;não;Periquito;24.45000076
+PER-T4-C5-6000;Riozinho_Liberdade;não;Periquito;20.94000053
+PER-T3-C1-400;Riozinho_Liberdade;não;Periquito;10.76000023
+PER-T3-C3-2580;Riozinho_Liberdade;não;Periquito;7.539999962
+PER-T3-C2-1520;Riozinho_Liberdade;não;Periquito;10.76000023
+PER-T3-C5-5670;Riozinho_Liberdade;não;Periquito;15.14999962
+PER-T3-C4-3880;Riozinho_Liberdade;não;Periquito;5.929999828
+PER-T2-C2-1550;Riozinho_Liberdade;não;Periquito;16.36000061
+PER-T2-C1-550;Riozinho_Liberdade;não;Periquito;6.860000134
+PER-T2-C4-4090;Riozinho_Liberdade;não;Periquito;10.43000031
+PER-T2-C3-2460;Riozinho_Liberdade;não;Periquito;10.31999969
+PER-T2-C5-5670;Riozinho_Liberdade;não;Periquito;1.450000048
+PER-T1-C3-2770;Riozinho_Liberdade;não;Periquito;22.30999947
+PER-T1-C2-1550;Riozinho_Liberdade;não;Periquito;20.30999947
+PER-T1-C5-5850;Riozinho_Liberdade;não;Periquito;14.68000031
+PER-T1-C4-4000;Riozinho_Liberdade;não;Periquito;26.98999977
+PER-T1-C1-1080;Riozinho_Liberdade;não;Periquito;1.75999999
+ALE-T2-C1-850;Riozinho_Liberdade;não;Alegria;10.18999958
+ALE-T2-C3-2800;Riozinho_Liberdade;não;Alegria;11.60999966
+ALE-T2-C2-1500;Riozinho_Liberdade;não;Alegria;13.05000019
+ALE-T2-C5-6180;Riozinho_Liberdade;não;Alegria;20.67000008
+ALE-T2-C4-4200;Riozinho_Liberdade;não;Alegria;21.54999924
+ALE-T1-C2-850;Riozinho_Liberdade;não;Alegria_2;0
+ALE-T1-C1-288;Riozinho_Liberdade;não;Alegria_2;0
+ALE-T1-C4-4800;Riozinho_Liberdade;não;Alegria_2;25.79999924
+ALE-T1-C3-2550;Riozinho_Liberdade;não;Alegria_2;13.71000004
+ALE-T1-C5-5900;Riozinho_Liberdade;não;Alegria_2;8.340000153
+1012;RDA;não;BAUANA;16.04999924
+1013;RDA;não;BAUANA;25.73999977
+1014;RDA;não;BAUANA;30.27000046
+1015;RDA;não;BAUANA;38.63000107
+1021;RDA;não;Matura;17.62000084
+1022;RDA;não;Matura;17.62000084
+1023;RDA;não;Matura;14.86999989
+1024;RDA;não;Matura;19.07999992
+1025;RDA;não;Matura;0
+1031;RDA;não;Bom Jesus Jurua;15.52000046
+1032;RDA;não;Bom Jesus Jurua;15.52000046
+1033;RDA;não;Bom Jesus Jurua;20.15999985
+1034;RDA;não;Bom Jesus Jurua;35.88000107
+1035;RDA;não;Bom Jesus Jurua;34.02999878
+1041;RDA;não;Bom Jesus Jurua;27.97999954
+1042;RDA;não;Bom Jesus Jurua;27.97999954
+1043;RDA;não;Bom Jesus Jurua;27.12000084
+1044;RDA;não;Bom Jesus Jurua;27.81999969
+1045;RDA;não;Bom Jesus Jurua;28.63999939
+1051;RDA;não;Novo Unaci;8.130000114
+1052;RDA;não;Novo Unaci;8.130000114
+1053;RDA;não;Novo Unaci;0
+1054;RDA;não;Novo Unaci;8.18999958
+1061;RDA;não;Sao Raimundo;8.970000267
+1062;RDA;não;Sao Raimundo;8.970000267
+1063;RDA;não;Sao Raimundo;14.76000023
+1064;RDA;não;Sao Raimundo;9.479999542
+1065;RDA;não;Sao Raimundo;9.479999542
+2011;RDA;sim;H;19.98999977
+2012;RDA;sim;H;19.98999977
+2013;RDA;sim;H;34.68999863
+2014;RDA;sim;H;35.18000031
+2015;RDA;sim;H;39
+2021;RDA;sim;G;40.13999939
+2022;RDA;sim;G;36.36999893
+2023;RDA;sim;G;36.36999893
+2024;RDA;sim;G;41.22000122
+2031;RDA;não;Z;11.39999962
+2032;RDA;não;Z;11.39999962
+2033;RDA;não;Z;25.79000092
+2034;RDA;não;Z;16.53000069
+2035;RDA;sim;Z;4.039999962
+2041;RDA;não;Z;18.79999924
+2042;RDA;não;Z;25.86000061
+2043;RDA;não;Z;25.13999939
+2044;RDA;não;Z;21.02000046
+2051;RDA;não;Pupuai;7.449999809
+2052;RDA;não;Pupuai;20.09000015
+2053;RDA;não;Pupuai;23.07999992
+2054;RDA;não;Pupuai;1.840000033
+2055;RDA;não;Pupuai;2
+2061;RDA;não;ROQUE;0.810000002
+2062;RDA;não;ROQUE;0.810000002
+2063;RDA;não;ROQUE;0.779999971
+2064;RDA;não;ROQUE;0
+2065;RDA;não;ROQUE;1.74000001
+2071;RDA;não;ROQUE;21.62999916
+2072;RDA;não;ROQUE;31
+2073;RDA;não;ROQUE;24.79000092
+2074;RDA;não;ROQUE;32.45999908
+2081;RDA;não;E;11.34000015
+2082;RDA;não;E;11.34000015
+2083;RDA;não;E;13
+2084;RDA;não;E;22.45000076
+2091;RDA;não;FORTUNA;18.67000008
+2092;RDA;não;FORTUNA;24.45000076
+2093;RDA;não;FORTUNA;24.45000076
+2094;RDA;não;FORTUNA;27.69000053
+2095;RDA;não;FORTUNA;20.81999969
+2101;RDA;não;Imperatrix;15.21000004
+2102;RDA;não;Imperatrix;15.21000004
+3011;RDA;sim;Carauari Riozinho;5.480000019
+3012;RDA;sim;Carauari Riozinho;5.480000019
+3013;RDA;sim;Carauari Riozinho;13.31000042
+3014;RDA;sim;Carauari Riozinho;18.25
+3015;RDA;sim;Carauari Riozinho;17.93000031
+3021;RDA;sim;J;7.239999771
+3022;RDA;sim;J;7.239999771
+3023;RDA;sim;J;7.239999771
+3024;RDA;sim;J;2.609999895
+3025;RDA;sim;J;2.359999895
+3031;RDA;sim;L;6.880000114
+3032;RDA;sim;L;10.22999954
+3033;RDA;sim;L;14.19999981
+3034;RDA;sim;L;15.88000011
+3035;RDA;sim;L;0.689999998
+3041;RDA;sim;Carauari pe da terra;23.87000084
+3042;RDA;sim;Carauari pe da terra;23.21999931
+3043;RDA;sim;Carauari pe da terra;20.55999947
+3044;RDA;sim;Carauari pe da terra;20.45999908
+3045;RDA;sim;Carauari pe da terra;4.610000134
+3051;RDA;sim;I;24.10000038
+3052;RDA;sim;I;24.10000038
+3053;RDA;sim;I;21.12000084
+3054;RDA;sim;I;29.37000084
+3055;RDA;sim;I;32.38999939
+3061;RDA;não;Bonfim;0
+3062;RDA;não;Bonfim;3.799999952
+3063;RDA;não;Bonfim;0
+3064;RDA;não;Bonfim;12.55000019
+3065;RDA;não;Bonfim;13.25
+3071;RDA;não;Xibauazinho;8.819999695
+3072;RDA;não;Xibauazinho;8.819999695
+3073;RDA;não;Xibauazinho;10.13000011
+3074;RDA;não;Xibauazinho;40.09000015
+3075;RDA;não;Xibauazinho;46.77000046
+3081;RDA;não;Xibaua;3.549999952
+3082;RDA;não;Xibaua;3.549999952
+3083;RDA;não;Xibaua;15.40999985
+3084;RDA;não;Xibaua;19.04999924
+3085;RDA;não;Xibaua;22.38999939
+3091;RDA;não;Carocal;0.419999987
+3092;RDA;não;Carocal;0.419999987
+3093;RDA;não;Carocal;7.090000153
+3094;RDA;não;Carocal;6.670000076
+4011;RDA;não;Sao Jose (Anaxiqui);25.27000046
+4012;RDA;não;Sao Jose (Anaxiqui);25.27000046
+4013;RDA;não;Sao Jose (Anaxiqui);13.34000015
+4014;RDA;não;Sao Jose (Anaxiqui);15.98999977
+4015;RDA;não;Sao Jose (Anaxiqui);33.24000168
+4022;RDA;não;B;5.619999886
+4023;RDA;não;B;5.619999886
+4024;RDA;não;B;3.880000114
+4031;RDA;não;X;9.409999847
+4032;RDA;não;X;18.59000015
+4033;RDA;não;X;18.59000015
+4034;RDA;não;X;27.48999977
+4035;RDA;não;X;2.859999895
+4041;RDA;não;C;17.23999977
+4042;RDA;não;C;17.67000008
+4043;RDA;não;C;17.67000008
+4044;RDA;não;C;0.790000021
+4045;RDA;não;C;6.340000153
+4051;RDA;não;D;1.360000014
+4053;RDA;não;D;3
+4054;RDA;não;D;3.440000057
+5011;RDA;não;Sororoca;17.26000023
+5012;RDA;não;Sororoca;17.26000023
+5013;RDA;não;Sororoca;18.04000092
+5014;RDA;não;Sororoca;4.349999905
+5015;RDA;não;Sororoca;6.059999943
+5021;RDA;não;Sororoca;0
+5022;RDA;não;Sororoca;7.400000095
+5023;RDA;não;Sororoca;17.69000053
+5024;RDA;não;Sororoca;26.21999931
+5025;RDA;não;Sororoca;31.13999939
+5031;RDA;não;Matura;0
+5032;RDA;não;Matura;4.159999847
+5033;RDA;não;Matura;4.159999847
+5034;RDA;não;Matura;0
+5035;RDA;não;Matura;0
+5041;RDA;não;Matura;10.32999992
+5042;RDA;não;Matura;10.72000027
+5043;RDA;não;Matura;10.72000027
+5044;RDA;não;Matura;35.86000061
+5045;RDA;não;Matura;6.079999924
+5052;RDA;não;FORTUNA;20.86000061
+5053;RDA;não;FORTUNA;31.87999916
+5054;RDA;não;FORTUNA;32.24000168
+5055;RDA;não;FORTUNA;13.28999996
+5061;RDA;não;ROQUE;1.389999986
+5062;RDA;não;ROQUE;2
+5063;RDA;não;ROQUE;2
+5064;RDA;não;ROQUE;1.120000005
+5065;RDA;não;ROQUE;0
+5072;RDA;não;Pupuai;28.03000069
+5073;RDA;não;Pupuai;25.35000038
+5074;RDA;não;Pupuai;0.029999999
+5075;RDA;não;Pupuai;0.189999998
+5081;RDA;sim;F;25.13999939
+5082;RDA;sim;F;25.13999939
+5083;RDA;sim;F;27.87999916
+5084;RDA;sim;F;3.720000029
+5085;RDA;sim;F;0.560000002
+5091;RDA;sim;H;23.38999939
+5092;RDA;sim;H;28.88999939
+5093;RDA;sim;H;29.73999977
+5094;RDA;sim;H;35.50999832
+5095;RDA;sim;H;39.81000137
+5101;RDA;sim;Cara_1;32.08000183
+5102;RDA;sim;Cara_1;32.08000183
+5103;RDA;sim;Cara_1;32.08000183
+5104;RDA;sim;Cara_1;14.72999954
+7011;RDU;sim;sao jose do uatuma;10.93999958
+7012;RDU;sim;sao jose do uatuma;10.93999958
+7013;RDU;sim;sao jose do uatuma;15.46000004
+7014;RDU;sim;sao jose do uatuma;38.11000061
+7015;RDU;sim;sao jose do uatuma;100.6600037
+7021;RDU;sim;M;54.61000061
+7022;RDU;sim;M;67.66000366
+7023;RDU;sim;M;46.65000153
+7025;RDU;sim;M;48.54999924
+7031;RDU;sim;macacaboi;11.43999958
+7032;RDU;sim;macacaboi;24.80999947
+7033;RDU;sim;macacaboi;24.80999947
+7034;RDU;sim;macacaboi;44.99000168
+7035;RDU;sim;macacaboi;41.63000107
+7041;RDU;não;tucumaiduba;15.64999962
+7042;RDU;não;tucumaiduba;15.64999962
+7045;RDU;não;tucumaiduba;10.52000046
+7051;RDU;não;N;34.81999969
+7052;RDU;não;N;29.37999916
+7053;RDU;não;N;29.37999916
+7054;RDU;não;N;42.06999969
+7061;RDU;não;flechal;14.39000034
+7062;RDU;não;flechal;0
+7063;RDU;não;flechal;38.09000015
+7064;RDU;não;flechal;29.79000092
+7071;RDU;não;R;55.84000015
+7072;RDU;não;R;55.84000015
+7073;RDU;não;R;55.84000015
+7074;RDU;não;R;78.87999725
+7075;RDU;não;R;0
+7081;RDU;não;livramento;10.36999989
+7082;RDU;não;livramento;10.36999989
+7083;RDU;não;livramento;20.81999969
+7084;RDU;não;livramento;14.07999992
+7085;RDU;não;livramento;4.949999809
+7091;RDU;não;sao francisco_1;16.17000008
+7093;RDU;não;sao francisco_1;0
+7094;RDU;não;sao francisco_1;0
+7095;RDU;não;sao francisco_1;23.32999992
+7101;RDU;não;sta lucia jacarequar;13.76000023
+7102;RDU;não;sta lucia jacarequar;13.76000023
+7103;RDU;não;sta lucia jacarequar;20.84000015
+7104;RDU;não;sta lucia jacarequar;27.23999977
+7105;RDU;não;sta lucia jacarequar;62.90000153
+7111;RDU;não;O;37.16999817
+7112;RDU;não;O;37.16999817
+7113;RDU;não;O;27.06999969
+7114;RDU;não;O;55.43000031
+7115;RDU;não;O;57.99000168
+8011;RDU;sim;sao jao batista;0
+8012;RDU;sim;sao jao batista;0
+8013;RDU;sim;sao jao batista;0
+8014;RDU;sim;sao jao batista;31.62999916
+8015;RDU;sim;sao jao batista;1.590000033
+8021;RDU;sim;serra do bacabal;10.43000031
+8022;RDU;sim;serra do bacabal;10.43000031
+8023;RDU;sim;serra do bacabal;22.01000023
+8024;RDU;sim;serra do bacabal;52.25
+8025;RDU;sim;serra do bacabal;31.37000084
+8031;RDU;sim;do arara;58.33000183
+8032;RDU;sim;do arara;60.09999847
+8033;RDU;sim;do arara;62.45999908
+8034;RDU;sim;do arara;21.79000092
+8035;RDU;sim;do arara;15.72000027
+8041;RDU;não;P;28.85000038
+8042;RDU;não;P;28.85000038
+8043;RDU;não;P;26.5
+8044;RDU;não;P;8.06000042
+8045;RDU;não;P;0
+8051;RDU;não;nossa sra de fatima;0
+8052;RDU;não;nossa sra de fatima;0
+8053;RDU;não;nossa sra de fatima;0
+8054;RDU;não;nossa sra de fatima;27.94000053
+8055;RDU;não;nossa sra de fatima;46.02999878
+8061;RDU;sim;sao francisco_3;0
+8062;RDU;sim;sao francisco_3;0
+8063;RDU;sim;sao francisco_3;0
+8064;RDU;sim;sao francisco_3;42.08000183
+8071;RDU;sim;monte siao_1;14.55000019
+8072;RDU;sim;monte siao_1;14.55000019
+8073;RDU;sim;monte siao_1;9.859999657
+8074;RDU;sim;monte siao_1;33.47000122
+8075;RDU;sim;monte siao_1;40.43000031
+8081;RDU;sim;Q;0
+8082;RDU;sim;Q;22.20000076
+8083;RDU;sim;Q;22.20000076
+8084;RDU;sim;Q;14.86999989
+8085;RDU;sim;Q;35.77999878
+8092;RDU;sim;sao francisco_2;57.61999893
+8093;RDU;sim;sao francisco_2;60.5
+8094;RDU;sim;sao francisco_2;9.829999924
+8101;RDU;sim;ig do raimundo;40.93000031
+8102;RDU;sim;ig do raimundo;40.93000031
+8103;RDU;sim;ig do raimundo;22.69000053
+8104;RDU;sim;ig do raimundo;46.54999924
+6011;RDA;sim;I;12.31999969
+6013;RDA;sim;I;12.31999969
+6021;RDA;não;Bareira do ido;0
+6022;RDA;não;Bareira do ido;0
+6023;RDA;não;Bareira do ido;1.00999999
+6031;RDA;não;BAUANA;10.07999992
+6032;RDA;não;BAUANA;10.07999992
+6033;RDA;não;BAUANA;19.48999977
+6034;RDA;não;BAUANA;16.04999924
+6041;RDA;não;6041;2.720000029
