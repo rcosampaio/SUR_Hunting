@@ -172,7 +172,7 @@ print(out, dig = 2)
 tail(out)
 
 # Save results  
-saveRDS(out, here("data", "RN_multitaxa.guilds.rds"))
+saveRDS(out, here("data", "RN_multitaxa_guilds.rds"))
 
 ### load model
 RN_multitaxa<-readRDS(here("data", "RN_multitaxa.rds"))
