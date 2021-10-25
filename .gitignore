@@ -2,7 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+*.rds
 #/data #ignore this directory
 data/*.csv #not csv
-data/.rda #not rda
+data/.rds #not rds
 data/.xlsx
