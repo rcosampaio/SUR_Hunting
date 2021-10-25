@@ -1,19 +1,13 @@
 # SUR_Hunting
 SampaioR_PhD
 
-Analise de dados sobre os impactos da caça em UCs de Uso Sustentável na Amazônia - ORGANIZAR ISSO DEPOIS
+Analise de dados sobre os impactos da caça em /unidades de Conservação de Uso Sustentável na Amazônia Brasileira - ORGANIZAR ISSO DEPOIS
 
 
 ### Descrição
-```manejo-florestal-jamari``` Códigos para análises sobre efeito do manejo florestal sobre vertebrados na FLONA do Jamari.
+```data``` Dados processados.
 
-```florestal-basico-monitora``` Códigos para análise exploratória dos dados do protocolo florestal básico do Programa Monitora.
-
-```data``` Dados processados. Os dados brutos estão numa pasta do Google drive e são acesssados pelos códigos para análise. 
-
-```bin``` Caixa de ferramentas: códigos e funções úteis.
-
-```models``` Resultados das análises sobre o manejo florestal na flona Jamari.
+```scripts``` Códigos para realizar as análises
 
 # Instruções para instalar o repositório localmente no R
 Se você pretende usar o R mas nunca fez isso antes, veja abaixo as instruções para instalar o R, RStudio e Git.
