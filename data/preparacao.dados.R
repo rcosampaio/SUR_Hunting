@@ -1,36 +1,42 @@
 #### criando todos os objetos para as análises
 source(here("data", "correcao.sampaio.data.R"), encoding = "UTF-8")
 #head(sampaio.data)
-#install.packages("https://www.mbr-pwrc.usgs.gov/software/bin/RPresence.tar.gz",repo=NULL)
 
 ########## Only work with the spp pf mark 
 #sort(unique(sampaio.data$bin))
 library(dplyr)
 sampaio.data.f<- filter (sampaio.data, bin == " "
+                                      | bin == "Atelocynus microtis"
+                                      | bin == "Cabassous unicinctus"
                                       | bin == "Crypturellus unknown" 
                                       | bin == "Cuniculus paca"
                                       | bin == "Dasyprocta fuliginosa"
-                                      | bin == "Sciurus spadiceus"
-                                      | bin == "Mazama americana"
-                                      | bin == "Mazama nemorivaga"
-                                      | bin == "Mazama unknown"
-                                      | bin == "Mitu tuberosum"
-                                      | bin == "Myrmecophaga tridactyla"
-                                      | bin == "Nasua nasua"
-                                      | bin == "Cabassous unicinctus"
                                       | bin == "Dasypus kappleri"
                                       | bin == "Dasypus novemcinctus"
                                       | bin == "Dasypus unknown"
+                                      | bin == "Didelphis marsupialis"
+                                      | bin == "Eira barbara"
+                                      | bin == "Leopardus pardalis"
+                                      | bin == "Leopardus wiedii"
+                                      | bin == "Mazama americana"
+                                      | bin == "Mazama nemorivaga"
+                                      | bin == "Mitu tuberosum"
+                                      | bin == "Myoprocta pratti"
+                                      | bin == "Myrmecophaga tridactyla"
+                                      | bin == "Nasua nasua"
                                       | bin == "Panthera onca"
                                       | bin == "Pecari tajacu"
                                       | bin == "Penelope jacquacu"
                                       | bin == "Priodontes maximus"
+                                      | bin == "Procyon cancrivorous"
                                       | bin == "Psophia leucoptera"
-                                      | bin == "Penelope jacquacu"
                                       | bin == "Puma concolor"
+                                      | bin == "Puma yagouaroundi"
+                                      | bin == "Sciurus spadiceus"
+                                      | bin == "Speothos venaticus"
+                                      | bin == "Tamandua tetradactyla"
                                       | bin == "Tapirus terrestris"
                                       | bin == "Tayassu pecari"
-                                      | bin == "Puma concolor"
                                       | bin == "Tinamus guttatus"
                                       | bin == "Tinamus major"
                                       | bin == "Tinamus tao"
@@ -38,89 +44,109 @@ sampaio.data.f<- filter (sampaio.data, bin == " "
 #sort(unique(sampaio.data.f$bin))
 ##### Organizando os nomes das sp.
 sampaio.data.f[sampaio.data.f$bin == "Crypturellus unknown",]$bin<-"Crypturellus spp"
-sampaio.data.f[sampaio.data.f$bin == "Sciurus spadiceus",]$bin<-"Hadrosciurus spadiceus" 
-sampaio.data.f[sampaio.data.f$bin == "Mazama unknown",]$bin<- "Mazama Sp"
+#sampaio.data.f[sampaio.data.f$bin == "Sciurus spadiceus",]$bin<-"Hadrosciurus spadiceus" 
+#sampaio.data.f[sampaio.data.f$bin == "Mazama unknown",]$bin<- "Mazama Sp"
 sampaio.data.f[sampaio.data.f$bin == "Cabassous unicinctus",]$bin <- "Nonspecific small cingulata"
 sampaio.data.f[sampaio.data.f$bin == "Dasypus kappleri",]$bin <- "Nonspecific small cingulata"
 sampaio.data.f[sampaio.data.f$bin == "Dasypus novemcinctus",]$bin <- "Nonspecific small cingulata"
 sampaio.data.f[sampaio.data.f$bin == "Dasypus unknown",]$bin <- "Nonspecific small cingulata"
-sampaio.data.f[sampaio.data.f$bin == "Psophia leucoptera",]$bin<-"Psophia spp."
-sampaio.data.f[sampaio.data.f$bin == "Tinamus guttatus",]$bin<- "Tinamus spp."    
-sampaio.data.f[sampaio.data.f$bin == "Tinamus major",]$bin<- "Tinamus spp."    
-sampaio.data.f[sampaio.data.f$bin == "Tinamus tao",]$bin<- "Tinamus spp."    
-sampaio.data.f[sampaio.data.f$bin == "Tinamus unknown",]$bin<- "Tinamus spp."  
+#sampaio.data.f[sampaio.data.f$bin == "Psophia leucoptera",]$bin<-"Psophia spp."
+sampaio.data.f[sampaio.data.f$bin == "Tinamus guttatus",]$bin<- "Tinamus spp"    
+sampaio.data.f[sampaio.data.f$bin == "Tinamus major",]$bin<- "Tinamus spp"    
+sampaio.data.f[sampaio.data.f$bin == "Tinamus tao",]$bin<- "Tinamus spp"    
+sampaio.data.f[sampaio.data.f$bin == "Tinamus unknown",]$bin<- "Tinamus spp"  
 
 
 ######## Excluindo dados com mais de 40 dias de amostragem
 ### Criando a um objeto mostrando a primeira foto para cada câmera
-colnames(sampaio.data.f)
+#colnames(sampaio.data.f)
 
-camera.primeira.foto<-aggregate(sampaio.data.f$data.hora.correta, list(sampaio.data.f$Camera.Trap.Name), min)
-colnames(camera.primeira.foto)
-head(camera.primeira.foto)
-colnames(camera.primeira.foto)<-c("Camera.Trap.Name","primeira.foto")
+#camera.primeira.foto<-aggregate(sampaio.data.f$data.hora.correta, list(sampaio.data.f$Camera.Trap.Name), min)
+#colnames(camera.primeira.foto)
+#head(camera.primeira.foto)
+#colnames(camera.primeira.foto)<-c("Camera.Trap.Name","primeira.foto")
 
 #### Unindo a coluna da primeira foto da camera no objeto Acre.cov
 
-teste<-merge(sampaio.data.f,camera.primeira.foto, by="Camera.Trap.Name")
+#teste<-merge(sampaio.data.f,camera.primeira.foto, by="Camera.Trap.Name")
 #dim(sampaio.data.f)
 #dim(teste)
 ### Criando uma coluna entre a diferençaa da foto com a primeira
-teste$diff.foto.primeirafoto<-difftime(as.POSIXct(teste$data.hora.correta),
-                                       as.POSIXct(teste$primeira.foto), units = "days")
-dim(teste)
+#teste$diff.foto.primeirafoto<-difftime(as.POSIXct(teste$data.hora.correta),
+ #                                      as.POSIXct(teste$primeira.foto), units = "days")
+#dim(teste)
 
 #### Filtrando dados para não mais que 40 dias
-sampaio.data.f.2<-teste[teste$diff.foto.primeirafoto<39, ]
-dim(sampaio.data.f.2)
-length(unique(sampaio.data.f.2$Camera.Trap.Name))
+#sampaio.data.f.2<-teste[teste$diff.foto.primeirafoto<39, ]
+#dim(sampaio.data.f.2)
+#length(unique(sampaio.data.f.2$Camera.Trap.Name))
 #### 410 CT
-range(sampaio.data.f.2$diff.foto.primeirafoto)
+#range(sampaio.data.f.2$diff.foto.primeirafoto)
 
 
 ### Mark data
-abr<-read.csv(here("data", "abr.data.csv"), sep = ";",  header = T, check.names=FALSE)
+abr<-read.csv(here("data", "abr.data.2.csv"), sep = ",",  header = T, check.names=FALSE)
 head(abr)
+tail(abr)
 colnames(abr)[1]<-"Camera.Trap.Name"
+length(unique(abr$Camera.Trap.Name))
 abr$Camera.Trap.Name<-as.character(abr$Camera.Trap.Name)
+abr[abr$Camera.Trap.Name=="2043a",]$Camera.Trap.Name<-"2043"
+abr[abr$Camera.Trap.Name=="2043b",]$Camera.Trap.Name<-"2043"
+abr[abr$Camera.Trap.Name=="30.13",]$Camera.Trap.Name<-"3013"
+dim(abr)
+#abr[36841,1]<-3013
+#abr[36840,]
+### Removendo cameras que eu não tenho os metadados
+abr<-abr[!abr$Camera.Trap.Name == "6024" &
+      !abr$Camera.Trap.Name == "6025"&
+        !abr$Camera.Trap.Name == "6042"&
+        !abr$Camera.Trap.Name == "6044"&
+        !abr$Camera.Trap.Name == "6045", ]
+sort(unique(abr$Camera.Trap.Name))
+
 #length(unique(abr$Camera.Trap.Name))
 library(lubridate)
-abr$data.hora.correta<-dmy_hm(abr$data.hora.correta)
+abr$data.hora.correta<-mdy_hm(abr$data.hora.correta)
 # Avaliando as spp do mark
 ### Corrigindo Dasyspus spp
 abr[abr$bin == "Dasyspus spp",]$bin<-"Nonspecific small cingulata"
-#sort(unique(abr$bin))
+abr[abr$bin == "Nonspecific Cingulata small",]$bin<-"Nonspecific small cingulata"
+
+abr[abr$bin == "Crypyurelus spp",]$bin<-"Crypturellus spp"
+
+sort(unique(abr$bin))
 #head(abr)
 
 #### Excluindo dados após 40 dias 
 ### Criando a um objeto mostrando a primeira foto para cada câmera
-colnames(abr)
+#colnames(abr)
 
-ct.abr.primeira.foto<-aggregate(abr$data.hora.correta, list(abr$Camera.Trap.Name), min)
-colnames(ct.abr.primeira.foto)
-head(ct.abr.primeira.foto)
-colnames(ct.abr.primeira.foto)<-c("Camera.Trap.Name","primeira.foto")
+#ct.abr.primeira.foto<-aggregate(abr$data.hora.correta, list(abr$Camera.Trap.Name), min)
+#colnames(ct.abr.primeira.foto)
+#head(ct.abr.primeira.foto)
+#colnames(ct.abr.primeira.foto)<-c("Camera.Trap.Name","primeira.foto")
 #### Unindo a coluna da primeira foto da camera no objeto Acre.cov
 
-teste.2<-merge(abr[c(1:4)],ct.abr.primeira.foto, by="Camera.Trap.Name")
-head(teste.2)
+#teste.2<-merge(abr[c(1:4)],ct.abr.primeira.foto, by="Camera.Trap.Name")
+#head(teste.2)
 #dim(teste.2)
 ### Criando uma coluna entre a diferençaa da foto com a primeira
-teste.2$diff.foto.primeirafoto<-difftime(as.POSIXct(teste.2$data.hora.correta),
-                                       as.POSIXct(teste.2$primeira.foto), units = "days")
-range(teste.2$diff.foto.primeirafoto)
+#teste.2$diff.foto.primeirafoto<-difftime(as.POSIXct(teste.2$data.hora.correta),
+  #                                     as.POSIXct(teste.2$primeira.foto), units = "days")
+#range(teste.2$diff.foto.primeirafoto)
 #### Filtrando dados para não mais que 40 dias
-abr<-teste.2[teste.2$diff.foto.primeirafoto<39, ]
-dim(abr)
-length(unique(abr$Camera.Trap.Name))
+#abr<-teste.2[teste.2$diff.foto.primeirafoto<39, ]
+#dim(abr)
+#length(unique(abr$Camera.Trap.Name))
 #### 288 CT
-range(abr$diff.foto.primeirafoto)
-head(abr)
+#range(abr$diff.foto.primeirafoto)
+#head(abr)
 
 #### Unindo os dois conjunto de dados
-colnames(sampaio.data.f.2)
+colnames(sampaio.data.f)
 colnames(abr)
-data<-dplyr::bind_rows(sampaio.data.f.2 , abr[c(1,2,4,6)])
+data<-dplyr::bind_rows(sampaio.data.f[c(3,33,36)] , abr[c(1,2,4)])
 head(data)
 tail(data)
 length(unique(data$Camera.Trap.Name))
@@ -135,12 +161,12 @@ Covariaveis$Problem1_from <- as.Date(Covariaveis$Problem1_from, format= "%d/%m/%
 Covariaveis<-Covariaveis[order(Covariaveis$Camera.Trap.Name),]
 
 ### Organizando a data de retirada em função dos 40 dias de amostragem
-Covariaveis$Retirada.2<-if_else(Covariaveis$Retirada-Covariaveis$Instalacao > 39, Covariaveis$Instalacao + 39, Covariaveis$Retirada)
+#Covariaveis$Retirada.2<-if_else(Covariaveis$Retirada-Covariaveis$Instalacao > 39, Covariaveis$Instalacao + 39, Covariaveis$Retirada)
 
 ### Organizando as cameras com problemas
 library(dplyr)
-Covariaveis$Problem1_from <-if_else(Covariaveis$Problem1_from < Covariaveis$Retirada.2, Covariaveis$Problem1_from, Covariaveis$Problem1_from[1])
-Covariaveis$Problem1_to <-if_else(Covariaveis$Problem1_to > Covariaveis$Retirada.2, Covariaveis$Retirada.2, Covariaveis$Problem1_to[1])
+#Covariaveis$Problem1_from <-if_else(Covariaveis$Problem1_from < Covariaveis$Retirada, Covariaveis$Problem1_from, Covariaveis$Problem1_from[1])
+#Covariaveis$Problem1_to <-if_else(Covariaveis$Problem1_to > Covariaveis$Retirada, Covariaveis$Retirada, Covariaveis$Problem1_to[1])
 
 ###### Inserir dados de covariáveis das cameras Sampaio data
 abr.CT<-read.csv(here("data","abr.CT.data.csv"), sep = ";", encoding = "UTF-8", header = T, check.names=FALSE)
@@ -150,6 +176,8 @@ tail(abr.CT)
 abr.CT<-abr.CT[order(abr.CT$Camera.Trap.Name),] ### Ordenando os sítios
 abr.CT<-abr.CT[1:3]
 abr.CT$Camera.Trap.Name<-as.character(abr.CT$Camera.Trap.Name)
+sort(abr.CT$Camera.Trap.Name)
+
 library(lubridate)
 abr.CT$Instalacao.1<-dmy_hm(abr.CT$Instalacao.1)
 abr.CT$Instalacao<- strftime(abr.CT$Instalacao.1, format = "%Y-%m-%d")
@@ -159,27 +187,18 @@ abr.CT$Retirada<-strftime(abr.CT$Retirada.1, format = "%Y-%m-%d")
 abr.CT$Retirada<-as.Date(abr.CT$Retirada)
 head(abr.CT)
 
-### Calculando o esforço por CT
-ct.effort.abr<-aggregate(abr$diff.foto.primeirafoto, list(abr$Camera.Trap.Name), max)
-colnames(ct.effort.abr)<-c("Camera.Trap.Name","Effort")
-head(ct.effort.abr)
-range(ct.effort.abr$Effort)
-class(ct.effort.abr$Effort)
-#plot(ct.effort.abr$Effort)
-abr.CT$Camera.Trap.Name==ct.effort.abr$Camera.Trap.Name
-
-### Organizando a data de retirada em função dos 40 dias de amostragem
-abr.CT$Retirada.2<-if_else(abr.CT$Retirada-abr.CT$Instalacao > 39, abr.CT$Instalacao + 39, abr.CT$Retirada)
-
-
 #### Unindo os dados de covariáveis
 colnames(Covariaveis)
 colnames(abr.CT)
-data.CT<-dplyr::bind_rows(Covariaveis[c(1,11,12,34,23,24)], abr.CT[c(1,4,5,6)])
+data.CT<-dplyr::bind_rows(Covariaveis[c(1,11,12,23,24)], abr.CT[c(1,4,5)])
 head(data.CT)
 tail(data.CT)
 length(unique(data$Camera.Trap.Name))
-range(data.CT$Retirada.2-data.CT$Instalacao)
+range(data.CT$Retirada-data.CT$Instalacao)
+tail(data.CT)
+names(data.CT)
+data.CT$Problem1_from
+data.CT$Problem1_to
 
 #install.packages("camtrapR")
 library(camtrapR) 
@@ -198,193 +217,56 @@ reportTest <- surveyReport (recordTable=data,
                                     recordDateTimeCol="data.hora.correta",
                                     recordDateTimeFormat="%Y-%m-%d %H:%M:%S",
                                     CTHasProblems = T)
+reportTest [1]
+reportTest [2]
 
+# Criando historico de deteçõeso (com esforço)
+sort(unique(data$bin))
+length(unique(data$bin))-1
 
-# Criando historico de deteçõeso (com esforço), ARTIODACTILOS
+############################## 1
 h.det.paca <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                species ="Cuniculus paca",
                                occasionLength=5, day1 = "station", includeEffort = TRUE,
                                scaleEffort = FALSE)
-h.det.paca.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                 species ="Cuniculus paca",
-                                 occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                 scaleEffort = FALSE)
-h.det.paca.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Cuniculus paca",
-                                  occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.paca.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Cuniculus paca",
-                                  occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.paca.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Cuniculus paca",
-                                  occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-##############################
+############################## 2
 h.det.catitu <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                  species ="Pecari tajacu",
                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
                                  scaleEffort = FALSE)
-h.det.catitu.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Pecari tajacu",
-                                   occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.catitu.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Pecari tajacu",
-                                    occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.catitu.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Pecari tajacu",
-                                    occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.catitu.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Pecari tajacu",
-                                    occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-##############################
+############################## 3
 h.det.vermelho <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                    species ="Mazama americana",
                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
                                    scaleEffort = FALSE)
-h.det.vermelho.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                     speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                     species ="Mazama americana",
-                                     occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                     scaleEffort = FALSE)
-h.det.vermelho.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Mazama americana",
-                                      occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.vermelho.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Mazama americana",
-                                      occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.vermelho.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Mazama americana",
-                                      occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-##############################
+############################## 4
 h.det.cutia <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                 species ="Dasyprocta fuliginosa",
                                 occasionLength=5, day1 = "station", includeEffort = TRUE,
                                 scaleEffort = FALSE)
-h.det.cutia.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Dasyprocta fuliginosa",
-                                  occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.cutia.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Dasyprocta fuliginosa",
-                                   occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.cutia.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Dasyprocta fuliginosa",
-                                   occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.cutia.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Dasyprocta fuliginosa",
-                                   occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-##############################
+############################## 5
 h.det.queixada <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                    species ="Tayassu pecari",
                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
                                    scaleEffort = FALSE)
-h.det.queixada.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                     speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                     species ="Tayassu pecari",
-                                     occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                     scaleEffort = FALSE)
-h.det.queixada.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Tayassu pecari",
-                                      occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.queixada.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Tayassu pecari",
-                                      occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.queixada.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Tayassu pecari",
-                                      occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-##############################
+############################## 6
 h.det.nambu<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                               species ="Tinamus spp.",
+                               species ="Tinamus spp",
                                occasionLength=5, day1 = "station", includeEffort = TRUE,
                                scaleEffort = FALSE)
-h.det.nambu.7<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                 species ="Tinamus spp.",
-                                 occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                 scaleEffort = FALSE)
-h.det.nambu.10<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Tinamus spp.",
-                                  occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.nambu.12<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Tinamus spp.",
-                                  occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.nambu.15<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Tinamus spp.",
-                                  occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-##############################
+############################## 7
 h.det.tatu <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                species ="Nonspecific small cingulata",
                                occasionLength=5, day1 = "station", includeEffort = TRUE,
                                scaleEffort = FALSE)
-h.det.tatu.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                 species ="Nonspecific small cingulata",
-                                 occasionLength=5, day1 = "station", includeEffort = TRUE,
-                                 scaleEffort = FALSE)
-h.det.tatu.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Nonspecific small cingulata",
-                                  occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.tatu.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Nonspecific small cingulata",
-                                  occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-
-h.det.tatu.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Nonspecific small cingulata",
-                                  occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-
-##############################
+############################## 8
 ###### INSERI NA RCI
 #ct.cinza <- cameraOperation(CTtable = data.CT[!data.CT$RESEX=="RCI",], stationCol = "Camera.Trap.Name",setupCol = "Instalacao",
  #                           retrievalCol = "Retirada.2",
@@ -394,79 +276,19 @@ h.det.cinza <- detectionHistory(recordTable= data,camOp = ct, stationCol="Camera
                                 species ="Mazama nemorivaga",
                                 occasionLength=5, day1 = "station", includeEffort = TRUE,
                                 scaleEffort = FALSE)
-h.det.cinza.7 <- detectionHistory(recordTable= data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Mazama nemorivaga",
-                                  occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.cinza.10 <- detectionHistory(recordTable= data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Mazama nemorivaga",
-                                   occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.cinza.12 <- detectionHistory(recordTable= data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Mazama nemorivaga",
-                                   occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.cinza.15 <- detectionHistory(recordTable= data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Mazama nemorivaga",
-                                   occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-##############################
+############################## 9
 h.det.mutum <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                 species ="Mitu tuberosum",
                                 occasionLength=5, day1 = "station", includeEffort = TRUE,
                                 scaleEffort = FALSE)
-h.det.mutum.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Mitu tuberosum",
-                                  occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.mutum.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Mitu tuberosum",
-                                   occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.mutum.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Mitu tuberosum",
-                                   occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.mutum.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Mitu tuberosum",
-                                   occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-########################
+############################# 10
 h.det.anta <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                species ="Tapirus terrestris",
                                occasionLength=5, day1 = "station", includeEffort = TRUE,
                                scaleEffort = FALSE)
-h.det.anta.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                 species ="Tapirus terrestris",
-                                 occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                 scaleEffort = FALSE)
-h.det.anta.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Tapirus terrestris",
-                                  occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.anta.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Tapirus terrestris",
-                                  occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.anta.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Tapirus terrestris",
-                                  occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-##############################
+############################## 11
 ##### NA RDU
 #ct.jacu <- cameraOperation(CTtable = data.CT[!data.CT$RESEX=="RDU",], stationCol = "Camera.Trap.Name",setupCol = "Instalacao",
  #                          retrievalCol = "Retirada.2",
@@ -477,168 +299,115 @@ h.det.jacu <- detectionHistory(recordTable=data, camOp = ct, stationCol="Camera.
                                species ="Penelope jacquacu",
                                occasionLength=5, day1 = "station", includeEffort = TRUE,
                                scaleEffort = FALSE)
-##############################
+############################## 12
 ##### NA RDU
 h.det.catipuru <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Hadrosciurus spadiceus",
+                                   species ="Sciurus spadiceus",
                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
                                    scaleEffort = FALSE)
-##############################
+############################## 13 
 h.det.jacamim<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                 species ="Psophia spp.",
+                                 species ="Psophia leucoptera",
                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
                                  scaleEffort = FALSE)
-h.det.jacamim.7<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Psophia spp.",
-                                   occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.jacamim.10<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Psophia spp.",
-                                    occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.jacamim.12<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Psophia spp.",
-                                    occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-
-h.det.jacamim.15<- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Psophia spp.",
-                                    occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-##############################
+############################## 14
 h.det.coati <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                 species ="Nasua nasua",
                                 occasionLength=5, day1 = "station", includeEffort = TRUE,
                                 scaleEffort = FALSE)
-h.det.coati.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                  species ="Nasua nasua",
-                                  occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                  scaleEffort = FALSE)
-h.det.coati.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Nasua nasua",
-                                   occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.coati.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Nasua nasua",
-                                   occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.coati.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Nasua nasua",
-                                   occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-##############################
+############################## 15
 h.det.onca.p <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                  species ="Panthera onca",
                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
                                  scaleEffort = FALSE)
-h.det.onca.p.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Panthera onca",
-                                   occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.onca.p.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Panthera onca",
-                                    occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.onca.p.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Panthera onca",
-                                    occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.onca.p.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Panthera onca",
-                                    occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-##############################
+############################## 16
 h.det.onca.v <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                  species ="Puma concolor",
                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
                                  scaleEffort = FALSE)
-h.det.onca.v.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                   species ="Puma concolor",
-                                   occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                   scaleEffort = FALSE)
-h.det.onca.v.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Puma concolor",
-                                    occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.onca.v.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Puma concolor",
-                                    occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-h.det.onca.v.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                    species ="Puma concolor",
-                                    occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                    scaleEffort = FALSE)
-
-##############################
+############################## 17
 h.det.canastra <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                    species ="Priodontes maximus",
                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
                                    scaleEffort = FALSE)
-h.det.canastra.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                     speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                     species ="Priodontes maximus",
-                                     occasionLength=7, day1 = "station", includeEffort = TRUE,
-                                     scaleEffort = FALSE)
-h.det.canastra.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Priodontes maximus",
-                                      occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.canastra.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Priodontes maximus",
-                                      occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.canastra.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Priodontes maximus",
-                                      occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-##############################
+############################## 18
 h.det.bandeira <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
                                    species ="Myrmecophaga tridactyla",
                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
                                    scaleEffort = FALSE)
-h.det.bandeira.7 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+############################## 19
+h.det.atelocynus <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                   species ="Atelocynus microtis",
+                                   occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                   scaleEffort = FALSE)
+############################## 20
+h.det.crypturellus <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                     species ="Myrmecophaga tridactyla",
-                                     occasionLength=7, day1 = "station", includeEffort = TRUE,
+                                     species ="Crypturellus spp",
+                                     occasionLength=5, day1 = "station", includeEffort = TRUE,
                                      scaleEffort = FALSE)
-h.det.bandeira.10 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Myrmecophaga tridactyla",
-                                      occasionLength=10, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.bandeira.12 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Myrmecophaga tridactyla",
-                                      occasionLength=12, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
-h.det.bandeira.15 <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
-                                      speciesCol ="bin", recordDateTimeCol="data.hora.correta",
-                                      species ="Myrmecophaga tridactyla",
-                                      occasionLength=15, day1 = "station", includeEffort = TRUE,
-                                      scaleEffort = FALSE)
+############################## 21
+h.det.didelphis <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                     speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                     species ="Didelphis marsupialis",
+                                     occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                     scaleEffort = FALSE)
+############################## 22
+h.det.irara <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                    species ="Eira barbara",
+                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                    scaleEffort = FALSE)
+############################## 23
+h.det.pardalis <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                    speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                    species ="Leopardus pardalis",
+                                    occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                    scaleEffort = FALSE)
+############################## 24
+h.det.wiedii <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                   speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                   species ="Leopardus wiedii",
+                                   occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                   scaleEffort = FALSE)
+############################## 25
+h.det.cutiara <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                 speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                 species ="Myoprocta pratti",
+                                 occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                 scaleEffort = FALSE)
+############################## 26
+h.det.procyon <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                  species ="Procyon cancrivorus",
+                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                  scaleEffort = FALSE)
+############################## 27
+h.det.jaguarundi <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                  species ="Puma yagouaroundi",
+                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                  scaleEffort = FALSE)
+############################## 28
+h.det.vinagre <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                     speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                     species ="Speothos venaticus",
+                                     occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                     scaleEffort = FALSE)
+############################## 29
+h.det.mambira <- detectionHistory(recordTable=data,camOp = ct, stationCol="Camera.Trap.Name",
+                                  speciesCol ="bin", recordDateTimeCol="data.hora.correta",
+                                  species ="Tamandua tetradactyla",
+                                  occasionLength=5, day1 = "station", includeEffort = TRUE,
+                                  scaleEffort = FALSE)
+
+
+

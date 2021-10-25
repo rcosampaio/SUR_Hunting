@@ -1,8 +1,8 @@
 library(here)
 here()
 
-source(here("data","preparacao.dados.R"))
-source(here("data","preparacao.covariaveis.R"))
+source(here("data","preparacao.dados.R"), encoding = "UTF-8")
+source(here("data","preparacao.covariaveis.R"), encoding = "UTF-8")
 
 
 ###  Trials
@@ -27,10 +27,30 @@ onca.p      <-rowSums((h.det.onca.p$detection_history), na.rm=T)
 onca.v      <-rowSums((h.det.onca.v$detection_history), na.rm=T)
 canastra    <-rowSums((h.det.canastra$detection_history), na.rm=T)
 bandeira    <-rowSums((h.det.bandeira$detection_history), na.rm=T)
+atelocynus  <-rowSums((h.det.atelocynus$detection_history), na.rm=T)
+crypturellus<-rowSums((h.det.crypturellus$detection_history), na.rm=T)
+mucura      <-rowSums((h.det.didelphis$detection_history), na.rm=T)
+irara       <-rowSums((h.det.irara$detection_history), na.rm=T)
+m.acu       <-rowSums((h.det.pardalis$detection_history), na.rm=T)
+m.peludo    <-rowSums((h.det.wiedii$detection_history), na.rm=T)
+cutiara     <-rowSums((h.det.cutiara$detection_history), na.rm=T)
+procyon     <-rowSums((h.det.procyon$detection_history), na.rm=T)
+m.preto     <-rowSums((h.det.jaguarundi$detection_history), na.rm=T)
+vinagre     <-rowSums((h.det.vinagre$detection_history), na.rm=T)
+mambira     <-rowSums((h.det.mambira$detection_history), na.rm=T)
 
-
-RN.data<-cbind(paca,catitu,vermelho,cutia,queixada,nambu,tatu,cinza,mutum,anta,jacu,catipuru,jacamim,coati,onca.p,onca.v,canastra,bandeira,trials.k,cov.3)
+RN.data<-cbind(paca,catitu,vermelho,cutia,queixada,nambu,tatu,cinza,mutum,anta,jacu,catipuru,jacamim,coati,onca.p,onca.v,canastra,bandeira,
+               atelocynus, crypturellus,mucura,irara, m.acu, m.peludo, cutiara, procyon, m.preto, vinagre, mambira,
+               trials.k,cov.3)
 head(RN.data)
 
+
+#### Excluindo dados de espécies que não ocorrem em determinada região
+
+RN.data[RN.data$RESEX == "RCI",]$cinza<-NA
+RN.data[RN.data$RESEX == "RDU",]$jacu<-NA
+RN.data[RN.data$RESEX == "RDU",]$catipuru<-NA
+RN.data[RN.data$RESEX == "RDU",]$atelocynus<-NA
 ### Saving data
 write.table(RN.data, file = here("data","RN.data.csv"), sep = ";", fileEncoding  = "UTF-8")
+

@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+#/data #ignore this directory
+data/*.csv #not csv
+data/.rda #not rda
+data/.xlsx

@@ -167,17 +167,17 @@ covariaveis<-cameras
 # Criando um objeto com o esforço
 effort.2<-reportTest[[1]][c(1,7)]
 colnames(effort.2)[1]<-"camera_id"
-
+names(effort.2)
 ### criando um novo objeto
 covariaveis.2<-merge(covariaveis, effort.2, by = "camera_id")
-#head(covariaveis.2)
+head(covariaveis.2)
 
 ##### Filtrando cameras com mais de 20 dias de amostragem
-covariaveis.2$Eff.2<-ifelse(covariaveis.2$n_nights_active<20,NA,covariaveis.2$n_nights_active)
+#covariaveis.2$Eff.2<-ifelse(covariaveis.2$n_nights_active<20,NA,covariaveis.2$n_nights_active)
 #head(covariaveis.2)
 
 ### Escalonando efforÃ§o
-covariaveis.2$Eff.3<- scale (covariaveis.2$Eff.2, center = TRUE, scale = TRUE)
+#covariaveis.2$Eff.2<- scale (covariaveis.2$Eff, center = TRUE, scale = TRUE)
 
 covariaveis.2<-covariaveis.2[c(289:720,1:288),] ### ordenando sítios para ficar igual aos históricos
 #head(covariaveis.2)
@@ -186,11 +186,6 @@ covariaveis.2<-covariaveis.2[c(289:720,1:288),] ### ordenando sítios para ficar
 cov.3<-covariaveis.2
 head(cov.3)
 dim(na.omit(cov.3))
-dim(cov.3[!is.na(cov.3$Eff.2),])
-####### OBSERVANDOS OS RANGES DE CADA VARIÁVEL
-range(na.omit(cov.3)$Eff.2, na.rm = T)
-mean (na.omit(cov.3)$Eff.2, na.rm = T)
-sd   (na.omit(cov.3)$Eff.2, na.rm = T)
 
 ###Comunidades
 length(unique(na.omit(cov.3)$Comunidade))
@@ -639,8 +634,10 @@ cov.3$lon<- cov.3$Y1
 
 
 ### Escalonando
-colnames(covariaveis)
-cov.3[c(5:17,22:28)]<-lapply(cov.3[c(5:17,22:28)], function(x) scale (x, center = TRUE, scale = TRUE)) 
+colnames(cov.3)
+names(cov.3[c(5:17,22:29)])
+head(cov.3)
+cov.3[c(5:17,22:27)]<-lapply(cov.3[c(5:17,22:27)], function(x) scale (x, center = TRUE, scale = TRUE)) 
 length(covariaveis$camera_id)
 ### Mundando o nome das RESEX
 cov.3[cov.3$RESEX == 'Arapixi',]$RESEX<- "REA"
@@ -662,6 +659,7 @@ colnames(cov.3)[16]<- "HP.C"
 colnames(cov.3)[18]<- "Eff"
 colnames(cov.3)[21]<- "Mod"
 colnames(cov.3)[25]<- "LxL"
+colnames(cov.3)[27]<- "Eff.2"
 
 
 write.csv(cov.3, file = "covariaveis.csv")
@@ -702,24 +700,3 @@ write.csv(cov.3, file = "covariaveis.csv")
 #covariaveis<-cov.3
 #plot(cov.3$Eco_reg, cov.3$Def)
 #cov.3$Eco_reg
-
-#### FUNCTIONS
-library(AICcmodavg)
-
-gof<-function(a5,a7,a10,a12,a15){
-  mod.5.RN <- occuRN(~Eff.3+Def ~ Def+Flo+Hyd+HP.C+HP.L+UC, a5, K=50) 
-  gof.5.RN <- mb.gof.test (mod.5.RN, plot.hist = F, maxK = NULL, nsim = 100)
-  mod.7.RN <- occuRN(~Eff.3+Def ~ Def+Flo+Hyd+HP.C+HP.L+UC, a7, K=50) 
-  gof.7.RN <- mb.gof.test (mod.7.RN, plot.hist = F, maxK = NULL, nsim = 100)
-  mod.10.RN <- occuRN(~Eff.3+Def ~ Def+Flo+Hyd+HP.C+HP.L+UC, a10, K=50) 
-  gof.10.RN <- mb.gof.test (mod.10.RN, plot.hist = F, maxK = NULL, nsim = 100)
-  mod.12.RN <- occuRN(~Eff.3+Def ~ Def+Flo+Hyd+HP.C+HP.L+UC, a12, K=50) 
-  gof.12.RN <- mb.gof.test (mod.12.RN, plot.hist = F, maxK = NULL, nsim = 100)
-  mod.15.RN <- occuRN(~Eff.3+Def ~ Def+Flo+Hyd+HP.C+HP.L+UC, a15, K=50) 
-  gof.15.RN <- mb.gof.test (mod.15.RN, plot.hist = F, maxK = NULL, nsim = 100)
-  models<-c("5 days","7 days" ,"10 days","12 days", "15 days")
-  p.value.RN<-c(gof.5.RN$p.value,gof.7.RN$p.value,gof.10.RN$p.value,gof.12.RN$p.value,gof.15.RN$p.value)
-  c.hat.RN  <-c(gof.5.RN$c.hat.est,gof.7.RN$c.hat.est,gof.10.RN$c.hat.est,gof.12.RN$c.hat.est,gof.15.RN$c.hat.est)
-  tabela.RN <- data.frame(models, p.value.RN, c.hat.RN)
-  return(tabela.RN)}
-
