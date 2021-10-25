@@ -1,6 +1,6 @@
 ### Load data
 library(here)
-library(rjags) ### for mac - https://sourceforge.net/projects/mcmc-jags/
+#library(rjags) ### for mac - https://sourceforge.net/projects/mcmc-jags/
 library(R2jags)
 library(dplyr)
 library(Rmisc)

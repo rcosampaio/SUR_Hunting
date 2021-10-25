@@ -1,6 +1,6 @@
 ### Load data
 library(here)
-library(rjags) ### for mac - https://sourceforge.net/projects/mcmc-jags/
+#library(rjags) ### for mac - https://sourceforge.net/projects/mcmc-jags/
 library(R2jags)
 library(dplyr)
 library(Rmisc)
@@ -15,8 +15,8 @@ sp.guilds<-read.csv(file = here("data","sp.guilds.csv"), sep = ",", fileEncoding
 head(sp.guilds)
 
 ##----- Specify model in JAGS language ----- adaptaded from Yamaura et al., 2011 and Carvalho Jr et al., 2020
-
-sink(here("data","RN.model.formula.txt"))
+sink(file = here("data","RN.model.formula.txt"))
+sink("RN.model.formula.txt")
 cat("model {
 
       # prior distributions on community level estimates - hyperparameters
@@ -93,13 +93,13 @@ cat("model {
 			}
 
       ## generating priors for Community random variable for each species; governed by community-level hyperparameters
-			for(i in 1:nspecies){
+			for(i in 1:nspecies+10){
 			 for (j in 1:n.comunidade){
 			    acom[j,i] ~ dnorm (mu.com, tau.com) # random effect communities
 			 }
 			}
 			
-			for(i in 1:nspecies) {
+			for(i in 1:nspecies+10) {
 				# generating parameters for each species related to abundance; governed by community-level hyperparameters
 				a0[i] ~ dnorm(mu.a0,tau.a0)#I(-10,10)
 				a1[i] ~ dnorm(mu.a1,tau.a1)#I(-10,10)
@@ -137,8 +137,8 @@ cat("model {
         log(lambda[j,i]) <- a0[i] + a1[i]*Hyd[j] + a2[i]*Flo[j] + a3[i]*Def[j] + a4[i]*UC[j] + a5[i]*HP.C[j] + a6[i]*HP.L[j] + acom[Comunidade[j],i] # equation (4)
         
         N[j,i] ~ dpois(lambda[j,i]) # latent abundance of each species in each site
-        #A[j,i] <- N[j,i]*w[i]		# latent abundance only for extant species
-				o[j,i] <- step(N[j,i]-1)	# occupancy of each species in each site
+        A[j,i] <- N[j,i]*w[i]		    # latent abundance only for extant species
+				o[j,i] <- step(N[j,i]-1)  	# occupancy of each species in each site
 				
 				# detection process model
 				r[j,i] <- 1/(1+exp(-(r0[i] + r1[i]*Hyd[j]  + r2[i]*Flo[j] + r3[i]*Def[j] + r4[i]*UC[j] + r5[i]*HP.C[j] + r6[i]*HP.L[j] + r7[i]*Eff.2[j])))
@@ -150,10 +150,10 @@ cat("model {
 				o3[j,i] <- o[j,i]*G3[i]		# occupancy of guild 3
 				o4[j,i] <- o[j,i]*G4[i]		# occupancy of guild 4
 				
-				N1[j,i] <- N[j,i]*G1[i]		# abundance of guild 1
-				N2[j,i] <- N[j,i]*G2[i]		# abundance of guild 2
-				N3[j,i] <- N[j,i]*G3[i]		# abundance of guild 3
-				N4[j,i] <- N[j,i]*G4[i]		# abundance of guild 4
+				N1[j,i] <- A[j,i]*G1[i]		# abundance of guild 1
+				N2[j,i] <- A[j,i]*G2[i]		# abundance of guild 2
+				N3[j,i] <- A[j,i]*G3[i]		# abundance of guild 3
+				N4[j,i] <- A[j,i]*G4[i]		# abundance of guild 4
 				
 				}
 			}
@@ -171,39 +171,11 @@ cat("model {
 		AB2[j]	<- sum(N2[j,])	# group 2
 		AB3[j]	<- sum(N3[j,])	# group 3
 		AB4[j]	<- sum(N4[j,])	# group 4
-		
-		## obtain the coeficient values for covariates for each guild
-		#A1.1[i]    <- mean(a1[i]*G1[i])
-		#A1.2[i]    <- mean(a1[,i]*G2[i])
-		#A1.3[i]    <- mean(a1[,i]*G3[i])
-		#A1.4[i]    <- mean(a1[,i]*G4[i])
-		#
-		#A2.1[i]    <- mean(a2[,i]*G1[i])
-		#A2.2[i]    <- mean(a2[,i]*G2[i])
-		#A2.3[i]    <- mean(a2[,i]*G3[i])
-		#A2.4[i]    <- mean(a2[,i]*G4[i])
-		#
-		#A3.1[i]    <- mean(a3[,i]*G1[i])
-		#A3.2[i]    <- mean(a3[,i]*G2[i])
-		#A3.3[i]    <- mean(a3[,i]*G3[i])
-		#A3.4[i]    <- mean(a3[,i]*G4[i])
-		#
-		#A4.1[i]    <- mean(a4[,i]*G1[i])
-		#A4.2[i]    <- mean(a4[,i]*G2[i])
-		#A4.3[i]    <- mean(a4[,i]*G3[i])
-		#A4.4[i]    <- mean(a4[,i]*G4[i])
-		#
-		#A5.1[i]    <- mean(a5[,i]*G1[i])
-		#A5.2[i]    <- mean(a5[,i]*G2[i])
-		#A5.3[i]    <- mean(a5[,i]*G3[i])
-		#A5.4[i]    <- mean(a5[,i]*G4[i])
-		#
-		#A6.1[i]    <- mean(a6[,i]*G1[i])
-		#A6.2[i]    <- mean(a6[,i]*G2[i])
-		#A6.3[i]    <- mean(a6[,i]*G3[i])
-		#A6.4[i]    <- mean(a6[,i]*G4[i])
 		}
-			
+		
+		## estimating unknown number of distinct species that occupy any site
+		R <- sum(w[1:(29+10)])
+		
     }" ,fill=TRUE)
            sink()
 
@@ -220,28 +192,21 @@ Comunidade   <- dense_rank(RN.data$Comunidade)
 n.comunidade <- length(unique(RN.data$Comunidade))
 effort       <- as.vector(RN.data$Eff.2)
 nspecies     <- 29 #29 species
-y            <- RN.data[1:29]
+y            <- RN.data[1:29]	
+new.sp       <- cbind(rep(0,720),rep(0,720),rep(0,720),rep(0,720),rep(0,720),rep(0,720),rep(0,720),rep(0,720),rep(0,720),rep(0,720))
+y            <- cbind(y,new.sp) # number of augmented species 10
 nguilds      <- 4 # Browser, Carnivore,Frugivore, Granivore, Insectivore, Omnivorous
 G            <- as.vector(sp.guilds$Guild)
+g            <- rep(NA,length=10)
+G            <- c(G,g)
 
 jags_data <- list(y=y, nspecies=nspecies, k=k, Hyd=Hyd, Flo=Flo, Def=Def, UC=UC, HP.C=HP.C, HP.L=HP.L,Eff.2=effort,nguilds=nguilds, 
                   G=G,Comunidade=Comunidade, n.comunidade=n.comunidade, nSites=nSites)
 
-parameters <- c("lambda","r", "N", "a0", "a1", "a2", "a3", "a4", "a5", "a6", "acom", 
-                "r0", "r1", "r2", "r3", "r4", "r5", "r6", "r7",
+parameters <- c("lambda","r", "N", "A", "a0", "a1", "a2", "a3", "a4", "a5", "a6", "acom", 
+                "r0", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "R",
                 "G", "SR0", "SR1", "SR2", "SR3", "SR4", "AB0", "AB1", "AB2", "AB3", "AB4")
-                #"A1.1",                 "A1.2", 
-                #"A1.3",                 "A1.4", 
-                #"A2.1",                 "A2.2", 
-                #"A2.3",                 "A2.4", 
-                #"A3.1",                 "A3.2", 
-                #"A3.3",                 "A3.4", 
-                #"A4.1",                 "A4.2", 
-                #"A4.3",                 "A4.4", 
-                #"A5.1",                 "A5.2", 
-                #"A5.3",                 "A5.4", 
-                #"A6.1",                 "A6.2", 
-                #"A6.3",                 "A6.4")
+                
 
 # rodar o modelo
 out <- jags(jags_data, inits=NULL, parameters, here("data","RN.model.formula.txt"),
