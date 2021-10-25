@@ -81,7 +81,7 @@ model {
 			}
 			
 			for(i in 1:nspecies) {
-				# generating priors for each species related to abundance; governed by community-level hyperparameters
+				# generating parameters for each species related to abundance; governed by community-level hyperparameters
 				a0[i] ~ dnorm(mu.a0,tau.a0)#I(-10,10)
 				a1[i] ~ dnorm(mu.a1,tau.a1)#I(-10,10)
 				a2[i] ~ dnorm(mu.a2,tau.a2)#I(-10,10)
@@ -90,7 +90,7 @@ model {
 				a5[i] ~ dnorm(mu.a5,tau.a5)#I(-10,10)
 				a6[i] ~ dnorm(mu.a6,tau.a6)#I(-10,10)
 				
-				# generating priors for each species related to individual detection; governed by community-level hyperparameters
+				# generating parameters for each species related to individual detection; governed by community-level hyperparameters
 				r0[i] ~ dnorm(mu.r0,tau.r0)#I(-10,10)
 				r1[i] ~ dnorm(mu.r1,tau.r1)#I(-10,10)
 				r2[i] ~ dnorm(mu.r2,tau.r2)#I(-10,10)
@@ -114,29 +114,77 @@ model {
 				
 				#likelihood - Ecological model for latent abundance of species i in sites j
 				for(j in 1:nSites){
-					# population abundances.
-          log(lambda[j,i]) <- a0[i] + a1[i]*Hyd[j] + a2[i]*Flo[j] + a3[i]*Def[j] + a4[i]*UC[j] + a5[i]*HP.C[j] + a6[i]*HP.L[j] + acom[Comunidade[j],i] # equation (4)
-          
-          N[j,i] ~ dpois(lambda[j,i]) # latent abundance of each species in each site
-          A[j,i] <- N[j,i]*w[i]		# latent abundance only for extant species
-					o[j,i] <- step(A[j,i]-1)	# occupancy of each species in each year
-					
-					# detection process model
-					r[j,i] <- 1/(1+exp(-(r0[i] + r1[i]*Hyd[j]  + r2[i]*Flo[j] + r3[i]*Def[j] + r4[i]*UC[j] + r5[i]*HP.C[j] + r6[i]*HP.L[j] + r7[i]*Eff.2[j])))
-					p[j,i] <- 1-pow(1-r[j,i],N[j,i])	
-					y[j,i] ~ dbin(p[j,i], k[j])  # model observation data as binomial outcome with prob p and k trials
-
-          o1[j,i] <- o[j,i]*G1[i]		# occupancy of guild 1
-					o2[j,i] <- o[j,i]*G2[i]		# occupancy of guild 2
-					o3[j,i] <- o[j,i]*G3[i]		# occupancy of guild 3
-					o4[j,i] <- o[j,i]*G4[i]		# occupancy of guild 4
-					
-					A1[j,i] <- A[j,i]*G1[i]		# abundance of guild 1
-					A2[j,i] <- A[j,i]*G2[i]		# abundance of guild 2
-					A3[j,i] <- A[j,i]*G3[i]		# abundance of guild 3
-					A4[j,i] <- A[j,i]*G4[i]		# abundance of guild 4
-					
+				# population abundances.
+        log(lambda[j,i]) <- a0[i] + a1[i]*Hyd[j] + a2[i]*Flo[j] + a3[i]*Def[j] + a4[i]*UC[j] + a5[i]*HP.C[j] + a6[i]*HP.L[j] + acom[Comunidade[j],i] # equation (4)
+        
+        N[j,i] ~ dpois(lambda[j,i]) # latent abundance of each species in each site
+        #A[j,i] <- N[j,i]*w[i]		# latent abundance only for extant species
+				o[j,i] <- step(N[j,i]-1)	# occupancy of each species in each site
+				
+				# detection process model
+				r[j,i] <- 1/(1+exp(-(r0[i] + r1[i]*Hyd[j]  + r2[i]*Flo[j] + r3[i]*Def[j] + r4[i]*UC[j] + r5[i]*HP.C[j] + r6[i]*HP.L[j] + r7[i]*Eff.2[j])))
+				p[j,i] <- 1-pow(1-r[j,i],N[j,i])	
+				y[j,i] ~ dbin(p[j,i], k[j])  # model observation data as binomial outcome with prob p and k trials
+        
+        o1[j,i] <- o[j,i]*G1[i]		# occupancy of guild 1
+				o2[j,i] <- o[j,i]*G2[i]		# occupancy of guild 2
+				o3[j,i] <- o[j,i]*G3[i]		# occupancy of guild 3
+				o4[j,i] <- o[j,i]*G4[i]		# occupancy of guild 4
+				
+				N1[j,i] <- N[j,i]*G1[i]		# abundance of guild 1
+				N2[j,i] <- N[j,i]*G2[i]		# abundance of guild 2
+				N3[j,i] <- N[j,i]*G3[i]		# abundance of guild 3
+				N4[j,i] <- N[j,i]*G4[i]		# abundance of guild 4
+				
+				A1.1[i]    <- mean(a1[i]*G1[i])
+				
 				}
-				}
+			}
+		## counting species richness at each year
+		for(j in 1:nSites){
+		SR0[j]	<- sum( o[j,])	# whole species
+		SR1[j]	<- sum(o1[j,])	# group 1
+		SR2[j]	<- sum(o2[j,])	# group 2
+		SR3[j]	<- sum(o3[j,])	# group 3
+		SR4[j]	<- sum(o4[j,])	# group 4
+	
+		## counting abundance at each year
+		AB0[j]	<- sum( N[j,])	# whole species
+		AB1[j]	<- sum(N1[j,])	# group 1
+		AB2[j]	<- sum(N2[j,])	# group 2
+		AB3[j]	<- sum(N3[j,])	# group 3
+		AB4[j]	<- sum(N4[j,])	# group 4
+		
+		## obtain the coeficient values for covariates for each guild
+		#A1.1[i]    <- mean(a1[i]*G1[i])
+		#A1.2[i]    <- mean(a1[,i]*G2[i])
+		#A1.3[i]    <- mean(a1[,i]*G3[i])
+		#A1.4[i]    <- mean(a1[,i]*G4[i])
+		#
+		#A2.1[i]    <- mean(a2[,i]*G1[i])
+		#A2.2[i]    <- mean(a2[,i]*G2[i])
+		#A2.3[i]    <- mean(a2[,i]*G3[i])
+		#A2.4[i]    <- mean(a2[,i]*G4[i])
+		#
+		#A3.1[i]    <- mean(a3[,i]*G1[i])
+		#A3.2[i]    <- mean(a3[,i]*G2[i])
+		#A3.3[i]    <- mean(a3[,i]*G3[i])
+		#A3.4[i]    <- mean(a3[,i]*G4[i])
+		#
+		#A4.1[i]    <- mean(a4[,i]*G1[i])
+		#A4.2[i]    <- mean(a4[,i]*G2[i])
+		#A4.3[i]    <- mean(a4[,i]*G3[i])
+		#A4.4[i]    <- mean(a4[,i]*G4[i])
+		#
+		#A5.1[i]    <- mean(a5[,i]*G1[i])
+		#A5.2[i]    <- mean(a5[,i]*G2[i])
+		#A5.3[i]    <- mean(a5[,i]*G3[i])
+		#A5.4[i]    <- mean(a5[,i]*G4[i])
+		#
+		#A6.1[i]    <- mean(a6[,i]*G1[i])
+		#A6.2[i]    <- mean(a6[,i]*G2[i])
+		#A6.3[i]    <- mean(a6[,i]*G3[i])
+		#A6.4[i]    <- mean(a6[,i]*G4[i])
+		}
 			
     }

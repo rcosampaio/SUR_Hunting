@@ -3,6 +3,7 @@ library(here)
 library(rjags) ### for mac - https://sourceforge.net/projects/mcmc-jags/
 library(R2jags)
 library(dplyr)
+library(Rmisc)
 
 # -------- Load data -----------
 RN.data<-read.csv(file = here("data","RN.data.csv"), sep = ";", fileEncoding  = "UTF-8")
@@ -99,7 +100,7 @@ cat("model {
 			}
 			
 			for(i in 1:nspecies) {
-				# generating priors for each species related to abundance; governed by community-level hyperparameters
+				# generating parameters for each species related to abundance; governed by community-level hyperparameters
 				a0[i] ~ dnorm(mu.a0,tau.a0)#I(-10,10)
 				a1[i] ~ dnorm(mu.a1,tau.a1)#I(-10,10)
 				a2[i] ~ dnorm(mu.a2,tau.a2)#I(-10,10)
@@ -108,7 +109,7 @@ cat("model {
 				a5[i] ~ dnorm(mu.a5,tau.a5)#I(-10,10)
 				a6[i] ~ dnorm(mu.a6,tau.a6)#I(-10,10)
 				
-				# generating priors for each species related to individual detection; governed by community-level hyperparameters
+				# generating parameters for each species related to individual detection; governed by community-level hyperparameters
 				r0[i] ~ dnorm(mu.r0,tau.r0)#I(-10,10)
 				r1[i] ~ dnorm(mu.r1,tau.r1)#I(-10,10)
 				r2[i] ~ dnorm(mu.r2,tau.r2)#I(-10,10)
@@ -136,8 +137,8 @@ cat("model {
         log(lambda[j,i]) <- a0[i] + a1[i]*Hyd[j] + a2[i]*Flo[j] + a3[i]*Def[j] + a4[i]*UC[j] + a5[i]*HP.C[j] + a6[i]*HP.L[j] + acom[Comunidade[j],i] # equation (4)
         
         N[j,i] ~ dpois(lambda[j,i]) # latent abundance of each species in each site
-        A[j,i] <- N[j,i]*w[i]		# latent abundance only for extant species
-				o[j,i] <- step(A[j,i]-1)	# occupancy of each species in each year
+        #A[j,i] <- N[j,i]*w[i]		# latent abundance only for extant species
+				o[j,i] <- step(N[j,i]-1)	# occupancy of each species in each site
 				
 				# detection process model
 				r[j,i] <- 1/(1+exp(-(r0[i] + r1[i]*Hyd[j]  + r2[i]*Flo[j] + r3[i]*Def[j] + r4[i]*UC[j] + r5[i]*HP.C[j] + r6[i]*HP.L[j] + r7[i]*Eff.2[j])))
@@ -149,13 +150,59 @@ cat("model {
 				o3[j,i] <- o[j,i]*G3[i]		# occupancy of guild 3
 				o4[j,i] <- o[j,i]*G4[i]		# occupancy of guild 4
 				
-				A1[j,i] <- A[j,i]*G1[i]		# abundance of guild 1
-				A2[j,i] <- A[j,i]*G2[i]		# abundance of guild 2
-				A3[j,i] <- A[j,i]*G3[i]		# abundance of guild 3
-				A4[j,i] <- A[j,i]*G4[i]		# abundance of guild 4
-					
+				N1[j,i] <- N[j,i]*G1[i]		# abundance of guild 1
+				N2[j,i] <- N[j,i]*G2[i]		# abundance of guild 2
+				N3[j,i] <- N[j,i]*G3[i]		# abundance of guild 3
+				N4[j,i] <- N[j,i]*G4[i]		# abundance of guild 4
+				
 				}
-				}
+			}
+		## counting species richness at each site
+		for(j in 1:nSites){
+		SR0[j]	<- sum( o[j,])	# whole species
+		SR1[j]	<- sum(o1[j,])	# group 1
+		SR2[j]	<- sum(o2[j,])	# group 2
+		SR3[j]	<- sum(o3[j,])	# group 3
+		SR4[j]	<- sum(o4[j,])	# group 4
+	
+		## counting abundance at each year
+		AB0[j]	<- sum( N[j,])	# whole species
+		AB1[j]	<- sum(N1[j,])	# group 1
+		AB2[j]	<- sum(N2[j,])	# group 2
+		AB3[j]	<- sum(N3[j,])	# group 3
+		AB4[j]	<- sum(N4[j,])	# group 4
+		
+		## obtain the coeficient values for covariates for each guild
+		#A1.1[i]    <- mean(a1[i]*G1[i])
+		#A1.2[i]    <- mean(a1[,i]*G2[i])
+		#A1.3[i]    <- mean(a1[,i]*G3[i])
+		#A1.4[i]    <- mean(a1[,i]*G4[i])
+		#
+		#A2.1[i]    <- mean(a2[,i]*G1[i])
+		#A2.2[i]    <- mean(a2[,i]*G2[i])
+		#A2.3[i]    <- mean(a2[,i]*G3[i])
+		#A2.4[i]    <- mean(a2[,i]*G4[i])
+		#
+		#A3.1[i]    <- mean(a3[,i]*G1[i])
+		#A3.2[i]    <- mean(a3[,i]*G2[i])
+		#A3.3[i]    <- mean(a3[,i]*G3[i])
+		#A3.4[i]    <- mean(a3[,i]*G4[i])
+		#
+		#A4.1[i]    <- mean(a4[,i]*G1[i])
+		#A4.2[i]    <- mean(a4[,i]*G2[i])
+		#A4.3[i]    <- mean(a4[,i]*G3[i])
+		#A4.4[i]    <- mean(a4[,i]*G4[i])
+		#
+		#A5.1[i]    <- mean(a5[,i]*G1[i])
+		#A5.2[i]    <- mean(a5[,i]*G2[i])
+		#A5.3[i]    <- mean(a5[,i]*G3[i])
+		#A5.4[i]    <- mean(a5[,i]*G4[i])
+		#
+		#A6.1[i]    <- mean(a6[,i]*G1[i])
+		#A6.2[i]    <- mean(a6[,i]*G2[i])
+		#A6.3[i]    <- mean(a6[,i]*G3[i])
+		#A6.4[i]    <- mean(a6[,i]*G4[i])
+		}
 			
     }" ,fill=TRUE)
            sink()
@@ -182,11 +229,23 @@ jags_data <- list(y=y, nspecies=nspecies, k=k, Hyd=Hyd, Flo=Flo, Def=Def, UC=UC,
 
 parameters <- c("lambda","r", "N", "a0", "a1", "a2", "a3", "a4", "a5", "a6", "acom", 
                 "r0", "r1", "r2", "r3", "r4", "r5", "r6", "r7",
-                "G", "o1", "o2", "o3", "o4", "A1", "A2", "A3", "A4")
+                "G", "SR0", "SR1", "SR2", "SR3", "SR4", "AB0", "AB1", "AB2", "AB3", "AB4")
+                #"A1.1",                 "A1.2", 
+                #"A1.3",                 "A1.4", 
+                #"A2.1",                 "A2.2", 
+                #"A2.3",                 "A2.4", 
+                #"A3.1",                 "A3.2", 
+                #"A3.3",                 "A3.4", 
+                #"A4.1",                 "A4.2", 
+                #"A4.3",                 "A4.4", 
+                #"A5.1",                 "A5.2", 
+                #"A5.3",                 "A5.4", 
+                #"A6.1",                 "A6.2", 
+                #"A6.3",                 "A6.4")
 
 # rodar o modelo
 out <- jags(jags_data, inits=NULL, parameters, here("data","RN.model.formula.txt"),
-            n.chain=3, n.burnin=1000, n.iter=5000, n.thin=100)
+            n.chain=3, n.burnin=100, n.iter=1000, n.thin=100)
 
 # Summarize posteriors
 print(out, dig = 2)
@@ -212,10 +271,12 @@ hist(mean)
 ##----- 2 - Model fit -----
 
 # check convergence
-hist(RN_multitaxa$BUGSoutput$summary[,"Rhat"], nclass=8, main="Rhat", xlab="", las=1)
+#hist(RN_multitaxa$BUGSoutput$summary[,"Rhat"], nclass=8, main="Rhat", xlab="", las=1)
 #summary(RN_multitaxa$BUGSoutput$summary[,"Rhat"])
 
-out$BUGSoutput$sims.list$A2
+out$BUGSoutput$sims.list$AB0
+out$BUGSoutput$sims.list$SR0
+
 ##----- 3 - Individual species responses to abundance covariates -----
 out$BUGSoutput$sims.list[["a1"]][,1:29]
 
@@ -245,7 +306,7 @@ library(ggplot2)
     xlab("") + 
     ylab("") + 
     geom_hline(yintercept=0, linetype = "dashed", col="darkgray")+
-    scale_color_manual(values = c("black","red"))+
+    scale_color_manual(values = c("blue","black","red"))+
     theme (panel.background = element_rect(fill = "transparent", colour = NA),
            axis.line = element_line(colour = "black"),
            axis.text = element_text(size=14),
