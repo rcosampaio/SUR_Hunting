@@ -4,6 +4,6 @@
 .Ruserdata
 *.rds
 #/data #ignore this directory
-data/*.csv #not csv
+#data/*.csv #not csv
 data/.rds #not rds
 data/.xlsx
